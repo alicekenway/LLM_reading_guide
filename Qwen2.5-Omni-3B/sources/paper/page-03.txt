@@ -1,0 +1,29 @@
+• Qwen2.5-Omni demonstrates strong performance across all modalities when benchmarked
+against similarly sized single-modality models. It significantly enhances the capability of follow-
+ing voice commands, achieving performance levels comparable to pure text input. For tasks that
+involve integrating multiple modalities, such as those evaluated in OmniBench (Li et al., 2024b),
+Qwen2.5-Omni achieves state-of-the-art performance. Notably, Qwen2.5-Omni achieves strong
+performance on seed-tts-eval (Anastassiou et al., 2024), demonstrating robust speech generation
+abilities.
+2
+Architecture
+Figure 2: The overview of Qwen2.5-Omni. Qwen2.5-Omni adpots the Thinker-Talker architecture.
+Thinker is tasked with text generation while Talker focuses on generating streaming speech tokens by
+receives high-level representations directly from Thinker.
+2.1
+Overview
+As shown in Figure 2, Qwen2.5-Omni employs Thinker-Talker architecture. Thinker functions like
+a brain, responsible for processing and understanding inputs from text, audio and video modalities,
+generating high-level representations and corresponding text. Talker operates like a human mouth,
+taking in the high-level representations and text produced by the Thinker in a streaming manner, and
+outputting discrete tokens of speech fluidly. Thinker is a Transformer decoder, accompanied by encoders
+for audio and image that facilitate information extraction. In contrast, Talker is designed as a dual-track
+autoregressive Transformer Decoder architecture, motivated by Mini-Omni (Xie & Wu, 2024). During
+both training and inference, Talker directly receives high-dimensional representations from Thinker and
+shares all of Thinker’s historical context information. Consequently, the entire architecture operates as a
+cohesive single model, enabling end-to-end training and inference.
+In the following sections, we first introduce how Qwen2.5-Omni perceives various input signals and
+present our proposed novel positional encoding algorithm, TMRoPE. Subsequently, the details of text
+and speech generation are presented. Finally, we highlight the improvements made in the understanding
+and generation modules to facilitate efficient streaming inference.
+3

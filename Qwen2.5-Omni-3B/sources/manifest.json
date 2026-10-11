@@ -1,0 +1,630 @@
+{
+  "sources": [
+    {
+      "path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "4c71c431acd62b613876ffeac942b9f2197b0262",
+      "transport": "GitHub connector",
+      "sha256": "05d22d9ef3cb63b3fc42b79fe29246f2199216b522d67d7975eb16b38a7982bc",
+      "bytes": 210489,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.689496+00:00",
+      "local_git_blob_sha": "4c71c431acd62b613876ffeac942b9f2197b0262",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "d079846708c773a3b3dda4d59f802f38356a1f8c",
+      "transport": "GitHub connector",
+      "sha256": "7f5df1851ac48c6a67abc15d77aa95f9d3cb290729e7f93ae77c67ba19d89a64",
+      "bytes": 50508,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.689327+00:00",
+      "local_git_blob_sha": "d079846708c773a3b3dda4d59f802f38356a1f8c",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "d607b8b95e800ba51ee273f05679f694b06bcea2",
+      "transport": "GitHub connector",
+      "sha256": "69f2fa290545e3506449703beadc340eda5dc8354d4f83cd96e0a41b7fe65efc",
+      "bytes": 17172,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.689625+00:00",
+      "local_git_blob_sha": "d607b8b95e800ba51ee273f05679f694b06bcea2",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/models/qwen2_5_omni/modular_qwen2_5_omni.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modular_qwen2_5_omni.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "9bb81ddcc59a5c72cefc8c2cf84e87eb4f2100f3",
+      "transport": "GitHub connector",
+      "sha256": "6dff72be947610caf5ef3a9b7c32e3e3bed8672af35abd0b386310fc984cd3e4",
+      "bytes": 195074,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.689182+00:00",
+      "local_git_blob_sha": "9bb81ddcc59a5c72cefc8c2cf84e87eb4f2100f3",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "8c494fdc6dbc5b6a2caadf5345d6f1ff83a46649",
+      "transport": "GitHub connector",
+      "sha256": "06d72059abedc4e6b8fa693be9f2b51da3fe11a09dfc0ff456c578951e269c1f",
+      "bytes": 24723,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.689696+00:00",
+      "local_git_blob_sha": "8c494fdc6dbc5b6a2caadf5345d6f1ff83a46649",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/models/whisper/feature_extraction_whisper.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/whisper/feature_extraction_whisper.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "af21fb7d3eca3dc8a1dd94d71585188c5831a719",
+      "transport": "GitHub connector",
+      "sha256": "d9cdcf1828a62828e4f6af9e311ac898fcbd8f97967a7ba5b50b97fb32d982ae",
+      "bytes": 15801,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.689018+00:00",
+      "local_git_blob_sha": "af21fb7d3eca3dc8a1dd94d71585188c5831a719",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/generation/utils.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "ee5b79e6d3ac7a9757ee6eac149659f92342f9ef",
+      "transport": "GitHub connector",
+      "sha256": "d72bc160e9f62ca84df4a5721f56496471ea3a6eed9c63a8c5bb5b6e4b7d1b98",
+      "bytes": 279770,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.688819+00:00",
+      "local_git_blob_sha": "ee5b79e6d3ac7a9757ee6eac149659f92342f9ef",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/processing_utils.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "b650972fb4f0dd010a90d2ea1b015250e8c63e80",
+      "transport": "GitHub connector",
+      "sha256": "8488eeee0ac4b44f54884c94ec661492d6b9099126ab1fb9a90076690e4fd34b",
+      "bytes": 80079,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.688552+00:00",
+      "local_git_blob_sha": "b650972fb4f0dd010a90d2ea1b015250e8c63e80",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/LICENSE",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/LICENSE",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "68b7d66c97d66c58de883ed0c451af2b3183e6f3",
+      "transport": "GitHub connector",
+      "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+      "bytes": 11418,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.625886+00:00",
+      "local_git_blob_sha": "68b7d66c97d66c58de883ed0c451af2b3183e6f3",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "retrieved_utc": "2026-10-11T03:34:30.190837+00:00",
+      "sha256": "95906505512440a3a32c37b10a6aeeef092c44d60fcfaebfb309950685b7cbf1",
+      "bytes": 3261756,
+      "status": "archived"
+    },
+    {
+      "path": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "retrieved_utc": "2026-10-11T03:34:32.856481+00:00",
+      "sha256": "b21bbc5f0dad96f5cb82fec733a959c5aebf77078495d72679742c7fd8c0bed6",
+      "bytes": 4036958,
+      "status": "archived"
+    },
+    {
+      "path": "sources/checkpoint/config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Omni-3B/resolve/f75b40e3da2003cdd6e1829b1f420ca70797c34e/config.json",
+      "revision": "f75b40e3da2003cdd6e1829b1f420ca70797c34e",
+      "retrieved_utc": "2026-10-11T03:35:47.923431+00:00",
+      "sha256": "20790f362c37a1718a3e764f597ae33dfc20177399762018dffaabf8321d4dd1",
+      "bytes": 13183,
+      "status": "archived"
+    },
+    {
+      "path": "sources/checkpoint/preprocessor_config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Omni-3B/resolve/f75b40e3da2003cdd6e1829b1f420ca70797c34e/preprocessor_config.json",
+      "revision": "f75b40e3da2003cdd6e1829b1f420ca70797c34e",
+      "retrieved_utc": "2026-10-11T03:35:48.049195+00:00",
+      "sha256": "b47055ce61463ce143e9aab741d55c0aa520801a0a5d63be73c5b17cecb6bc69",
+      "bytes": 667,
+      "status": "archived"
+    },
+    {
+      "path": "sources/checkpoint/generation_config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Omni-3B/resolve/f75b40e3da2003cdd6e1829b1f420ca70797c34e/generation_config.json",
+      "revision": "f75b40e3da2003cdd6e1829b1f420ca70797c34e",
+      "retrieved_utc": "2026-10-11T03:36:37.438263+00:00",
+      "sha256": "b9acf52072249e0e1850541d51ca4c85a30b9d7e23c2f2093ec0fb4139059ac7",
+      "bytes": 74,
+      "status": "archived"
+    },
+    {
+      "path": "sources/checkpoint/tokenizer_config.json",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Omni-3B/resolve/f75b40e3da2003cdd6e1829b1f420ca70797c34e/tokenizer_config.json",
+      "revision": "f75b40e3da2003cdd6e1829b1f420ca70797c34e",
+      "retrieved_utc": "2026-10-11T03:37:20.271233+00:00",
+      "sha256": "569aa7a9171e36dfff80f0a7550ab0c9c09e46ac840fea5030641417394fb0d2",
+      "bytes": 6469,
+      "status": "archived"
+    },
+    {
+      "path": "sources/references/whisper-2212.04356v1.pdf",
+      "url": "https://arxiv.org/pdf/2212.04356v1",
+      "revision": "2212.04356v1",
+      "retrieved_utc": "2026-10-11T03:37:22.881474+00:00",
+      "sha256": "6337bde031b2f237547a977b022f831169a7e05b4d9047f29501166d83594566",
+      "bytes": 1008644,
+      "status": "archived"
+    },
+    {
+      "path": "sources/checkpoint/README.md",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Omni-3B/resolve/f75b40e3da2003cdd6e1829b1f420ca70797c34e/README.md",
+      "revision": "f75b40e3da2003cdd6e1829b1f420ca70797c34e",
+      "retrieved_utc": "2026-10-11T03:37:34.823680+00:00",
+      "sha256": "9b436a82898fa8f1e8559d1aea114052e7d471c4a5319676e033cbacc08ebcc1",
+      "bytes": 36788,
+      "status": "archived"
+    },
+    {
+      "path": "sources/references/qwen2-audio-2407.10759v1.pdf",
+      "url": "https://arxiv.org/pdf/2407.10759v1",
+      "revision": "2407.10759v1",
+      "retrieved_utc": "2026-10-11T03:38:11.397789+00:00",
+      "sha256": "4ddac6d6b779f567efffb06144a4a9030e8524168ca54e504e26c81767758826",
+      "bytes": 1644312,
+      "status": "archived"
+    },
+    {
+      "path": "sources/checkpoint/LICENSE",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Omni-3B/resolve/f75b40e3da2003cdd6e1829b1f420ca70797c34e/LICENSE",
+      "revision": "f75b40e3da2003cdd6e1829b1f420ca70797c34e",
+      "retrieved_utc": "2026-10-11T03:38:50.869441+00:00",
+      "sha256": "ae8ef9d3fb476f735d9b9abeaab73b7f778b121c77427cd918ec3da01eefbc44",
+      "bytes": 7387,
+      "status": "archived"
+    },
+    {
+      "path": "sources/references/qwen2.5-vl-2502.13923v1.pdf",
+      "url": "https://arxiv.org/pdf/2502.13923v1",
+      "revision": "2502.13923v1",
+      "retrieved_utc": "2026-10-11T03:38:56.976495+00:00",
+      "sha256": "399a28f6ed79f4ece29cca93993fceb56fc304b1d779e49392aec05aff45aba5",
+      "bytes": 2219929,
+      "status": "archived"
+    },
+    {
+      "path": "sources/references/bigvgan-2206.04658v1.pdf",
+      "url": "https://arxiv.org/pdf/2206.04658v1",
+      "revision": "2206.04658v1",
+      "retrieved_utc": "2026-10-11T03:39:09.068322+00:00",
+      "sha256": "eb88ce5bb32e6f127214cf5285b2fcfc253ff079da3282457e811c71ee4c47eb",
+      "bytes": 988853,
+      "status": "archived"
+    },
+    {
+      "path": "sources/references/flow-matching-2210.02747v1.pdf",
+      "url": "https://arxiv.org/pdf/2210.02747v1",
+      "revision": "2210.02747v1",
+      "retrieved_utc": "2026-10-11T03:39:40.690977+00:00",
+      "sha256": "4ac9a57aa968f7363285bffe7992872da59465111df1a3d1911c2a16cef97588",
+      "bytes": 18495207,
+      "status": "archived"
+    },
+    {
+      "path": "sources/references/dpo-2305.18290v1.pdf",
+      "url": "https://arxiv.org/pdf/2305.18290v1",
+      "revision": "2305.18290v1",
+      "retrieved_utc": "2026-10-11T03:39:45.278930+00:00",
+      "sha256": "304d57efe53317673ee5e93e1e1d990e3231fb4e24198aedd4829968e2c3cfbb",
+      "bytes": 1286755,
+      "status": "archived"
+    },
+    {
+      "path": "sources/paper/page-07.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "ed6e4c50097917045ba0757cca110b46f7001c87e9372a227966d0ca341a18cf",
+      "bytes": 4495,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.626204+00:00"
+    },
+    {
+      "path": "sources/paper/page-11.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "6e0507ba23317ac7b0dacd9d6708a349d7d0226791713006dc65ab5189cf6502",
+      "bytes": 2470,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.626362+00:00"
+    },
+    {
+      "path": "sources/paper/page-16.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "2b226eb670b39a1740b5c8468a69094db16cf4cd04aeb4569cb0ba83283bbad7",
+      "bytes": 4590,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.626524+00:00"
+    },
+    {
+      "path": "sources/paper/page-18.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "7bb320bf54ab816a2a361c60e2456f7238ba233171f22264c4107dcef77a269a",
+      "bytes": 3869,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.631493+00:00"
+    },
+    {
+      "path": "sources/paper/page-12.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "98b646d940607367076d7a97f119fc109f1f9915ab33723a7131a1f432d55310",
+      "bytes": 3563,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.631681+00:00"
+    },
+    {
+      "path": "sources/paper/page-09.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "c4bc0039f24956366e52a304ee64d44cebae86250e780a61d5776fe669a4ed6e",
+      "bytes": 2012,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.631855+00:00"
+    },
+    {
+      "path": "sources/paper/page-10.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "8f483091625d3853787ef029e8a2458f00446f988ea01651280e4ee39440dcc0",
+      "bytes": 2929,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.632042+00:00"
+    },
+    {
+      "path": "sources/paper/page-01.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "c8bad66794d84e4f94e2627b18334170a5e216a5cf5a951c39c6d5fc4cd68550",
+      "bytes": 2667,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.632203+00:00"
+    },
+    {
+      "path": "sources/paper/page-03.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "e3ef2ac7577d0c2b7b6675ef6d5edfe2a27eca1d8e05ef42766595a671c153d9",
+      "bytes": 2214,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.632362+00:00"
+    },
+    {
+      "path": "sources/paper/page-06.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "70957ba62d2c1eb0f3fe7cb3446ff764fa3b080cbbafab2b09d32965b56593a7",
+      "bytes": 3959,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.632526+00:00"
+    },
+    {
+      "path": "sources/paper/page-17.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "1fc341ed25d43d276c9d6a47251e95f9919eee9fef106b6839f4f1cfa49df2b9",
+      "bytes": 4165,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.632748+00:00"
+    },
+    {
+      "path": "sources/paper/page-04.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "8e31e2f32f8ea254d1209cd4ad9517805b5ce32ffb913af2563d84fd024b1d31",
+      "bytes": 4050,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.632956+00:00"
+    },
+    {
+      "path": "sources/paper/page-19.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "6d24d426bdc2a72a2525ae9dcd9aa484ddb08f4dd0b83395158d6ad56907a9b6",
+      "bytes": 4328,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.633226+00:00"
+    },
+    {
+      "path": "sources/paper/page-05.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "eeaba942df4853b5d35dda1c5e800be688426d9915c499288dd4a45a35c7c9f5",
+      "bytes": 4066,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.633400+00:00"
+    },
+    {
+      "path": "sources/paper/page-13.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "0397a483bcf40000d42242056420ca4308e29d34173bf40773c2da1dc20f6d3d",
+      "bytes": 2688,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.633550+00:00"
+    },
+    {
+      "path": "sources/paper/page-14.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "f90576d474d4ab806bf8bc00f29a88688a588dd51805c2f608b1354e73161c6a",
+      "bytes": 4284,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.633716+00:00"
+    },
+    {
+      "path": "sources/paper/page-08.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "f6d2763086365da5a91815ff851300cb2b91dbc2cd91839ec3e04d000bf1077b",
+      "bytes": 3478,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.633866+00:00"
+    },
+    {
+      "path": "sources/paper/page-20.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "ec2393eae5af24880e939101d197cc2a321ade8f7d43ceccbcec2334ee8e9d9b",
+      "bytes": 1198,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.642170+00:00"
+    },
+    {
+      "path": "sources/paper/page-02.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "8d0fcd60b44bc6e6153eef74d5d88e65f3d56191cb6c8a431edd3f558cf5deb0",
+      "bytes": 5460,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.642345+00:00"
+    },
+    {
+      "path": "sources/paper/page-15.txt",
+      "url": "https://arxiv.org/pdf/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1.pdf",
+      "sha256": "69161d97cf5f77f03eaaee887a052bac2786240b6ce9dd726b0d5cfcef7efd5e",
+      "bytes": 4490,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.642519+00:00"
+    },
+    {
+      "path": "sources/paper/tex/math_commands.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "90473c4d0542070db244cea73ef962d6cddc5b2a746757e6a40ddf5fdfb90ba9",
+      "bytes": 12284,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.690116+00:00"
+    },
+    {
+      "path": "sources/paper/tex/colm2024_conference.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "69b648d8a50da757df7c3319191827847101c4f46fb7ba14dfe945943a1f8b42",
+      "bytes": 5483,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.690283+00:00"
+    },
+    {
+      "path": "sources/paper/tex/content/arch.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "376ee998278d89aa9b39094202275ddc7ba2b1227ab6df35451db3e9affc89bb",
+      "bytes": 11737,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.690568+00:00"
+    },
+    {
+      "path": "sources/paper/tex/content/posttraining.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "abba208fe655f8a6cbe799fdc6c37571f8eeef7355bff8abf1cdb57dfea02668",
+      "bytes": 4755,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.690720+00:00"
+    },
+    {
+      "path": "sources/paper/tex/content/intro.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "f9e11105347f1e4af3aa670d3b158be32b71a08c0f3c429c1006273c8c5d3a00",
+      "bytes": 6039,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.690898+00:00"
+    },
+    {
+      "path": "sources/paper/tex/content/authors.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "8d8ccaea0b68cfbc14c465c5eed107f7a4817722152bbfad7537677b33fafa9b",
+      "bytes": 1302,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.691139+00:00"
+    },
+    {
+      "path": "sources/paper/tex/content/conclusion.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "73d5d18b8b2b8b136dae95728eea04bdaa4a73496977f833bb2c944e1511a30b",
+      "bytes": 1534,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.691335+00:00"
+    },
+    {
+      "path": "sources/paper/tex/content/experiments.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "5e477c0800a32fa6d266091c2de03d09289caf4717e1a9bac548503d795975ee",
+      "bytes": 31541,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.691533+00:00"
+    },
+    {
+      "path": "sources/paper/tex/content/pretraining.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "ad5f92e398f511d5d3a63caf68fa22902ccf22e3c0cc0057cb0028ad2abcf917",
+      "bytes": 2609,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.691706+00:00"
+    },
+    {
+      "path": "sources/paper/tex/content/appendix.tex",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "57d5f0f450b321f78955557cc00ff6d5360559ea4b30b190ad3d964e40c48db7",
+      "bytes": 7252,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.691928+00:00"
+    },
+    {
+      "path": "sources/paper/tex/figures/qwen_omni.png",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "bd23af0ee9261db350f52b3d110b9d00ee5184e512a9eafc77ebadc2a1bc5819",
+      "bytes": 1803960,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.694408+00:00"
+    },
+    {
+      "path": "sources/paper/tex/figures/ATMRoPE.png",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "c711b7c9f613d6a9f8be8b22417ffcf133008294bce84e7c3f50b4254a90c056",
+      "bytes": 721550,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.695545+00:00"
+    },
+    {
+      "path": "sources/paper/tex/figures/overview.png",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "6e73f37744949e68944e46aa6c444f9b5ed489685c376a7e584740e2c3ab90a6",
+      "bytes": 664990,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.696595+00:00"
+    },
+    {
+      "path": "sources/paper/tex/figures/attentionmask.png",
+      "url": "https://arxiv.org/src/2503.20215v1",
+      "revision": "2503.20215v1",
+      "derived_from": "sources/paper/qwen2.5-omni-2503.20215v1-source.tar",
+      "sha256": "2b57801dd037a1efa0e896af9eb50258f1602cf90056d245f6cc58be21c686c6",
+      "bytes": 196866,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:43:58.697095+00:00"
+    },
+    {
+      "path": "sources/transformers/src/transformers/loss/loss_utils.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/loss/loss_utils.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "98ecbe76520c4acb4e59f20a3776674ecea5ad01",
+      "transport": "GitHub connector",
+      "sha256": "cbdb5ca3604faab097387f45214d1029b17e12befc06f5deb64927800fcaaf53",
+      "bytes": 6381,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:45:19.776985+00:00",
+      "local_git_blob_sha": "98ecbe76520c4acb4e59f20a3776674ecea5ad01",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "ccb961edea9d6e297b14531188320d72bbf4ef66",
+      "transport": "GitHub connector",
+      "sha256": "3a0bcdd0d4223c7645fc4bdcc53ff43d16689ead85e0751ed604dd173dba4358",
+      "bytes": 32960,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:45:19.776318+00:00",
+      "local_git_blob_sha": "ccb961edea9d6e297b14531188320d72bbf4ef66",
+      "upstream_byte_identical": true
+    },
+    {
+      "path": "sources/transformers/src/transformers/audio_utils.py",
+      "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py",
+      "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+      "blob_sha": "8420a84e089e03be9a80fb63c237e34203ea28a0",
+      "transport": "GitHub connector",
+      "sha256": "6cc65b7e6b8ce7564178489b3a7560ed37407ea19bb77487fa6e06e26e3f1eb2",
+      "bytes": 53404,
+      "status": "archived",
+      "retrieved_utc": "2026-10-11T03:45:19.776404+00:00",
+      "local_git_blob_sha": "8420a84e089e03be9a80fb63c237e34203ea28a0",
+      "upstream_byte_identical": true
+    }
+  ],
+  "model": "Qwen/Qwen2.5-Omni-3B",
+  "checkpoint_revision": "f75b40e3da2003cdd6e1829b1f420ca70797c34e",
+  "transformers_revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+  "paper_revision": "2503.20215v1"
+}

@@ -1,0 +1,47 @@
+probability distribution over the vocabulary. The generation process may incorporate techniques such as
+repetition penalty and top-p sampling to enhance its diversity.
+Speech.
+Talker receives both high-level representations and embeddings of the text tokens sampled by
+Thinker. The integration of high-dimensional representations and discrete sampling tokens is essential in
+this context. As a streaming algorithm, voice generation must anticipate the content’s tone and attitude
+before the entire text is fully generated. The high-dimensional representations provided by Thinker
+implicitly convey this information, enabling a more natural streaming generation process. Furthermore,
+Thinker’s representations primarily express semantic similarity in the representational space rather than
+phonetic similarity. Consequently, even phonetically distinct words may have very similar high-level
+representations, necessitating the input of sampled discrete tokens to eliminate such uncertainty.
+We designed an efficient speech codec named qwen-tts-tokenizer. qwen-tts-tokenizer efficiently represents
+key information of speech and can be decoded to speech streamingly through a causal audio decoder.
+After receiving the information, Talker starts to autoregressively generate audio tokens and text tokens.
+The generation of speech does not require word-level and timestamp-level alignment with the text. This
+significantly simplifies the requirements for training data and the inference process.
+2.4
+Designs for Streaming
+In the context of streaming audio and video interactions, the initial packet latency is a critical indicator of
+the system’s streaming performance. This latency is influenced by several factors: 1) the delay caused
+by the processing of multimodal information inputs; 2) the latency from the moment the first text
+input is received until the first voice token is output; 3) the delay in converting the first segment of
+speech into audio; and 4) the inherent latency of the architecture itself, which is related to model size,
+computational FLOPs, and other factors. This paper will subsequently discuss the algorithmic and
+architectural improvements made to reduce these latencies across these four dimensions.
+Support Prefilling.
+Chunked-prefills is a mechanism widely used in modern inference framework. To
+support it in modalities interation, we modified the audio and visual encoders to support block-wise
+attention along the temporal dimension. Specifically, the audio encoder is changed from full attention
+over the entire audio to performing attention in blocks of 2 seconds each. The vision encoder utilizes flash
+attention for efficient training and inference with a simple MLP layer that merges adjacent 2×2 tokens
+into a single token. The patch size is set to 14, which allows images of different resolutions to be packed
+into a sequence.
+Streaming Codec Generation.
+To facilitate the streaming of audio, especially for extended sequences,
+we propose a sliding window block attention mechanism that restricts the current token’s access to a
+limited context. Specifically, we utilize a Flow-Matching (Lipman et al.) DiT model. The input code is
+transformed into a mel-spectrogram using Flow-Matching, followed by a modified BigVGAN (Lee et al.)
+to reconstruct the generated mel-spectrogram back into the waveform.
+Figure 4: An illustration of sliding window block attention mechanism in DiT for codec to wav generation.
+As shown in Figure 4, to generate waveforms from code, we group adjacent codes into blocks and use
+these for our attention mask. We limit the DiT’s receptive field to 4 blocks, including a lookback of 2
+blocks and a lookahead of 1 block. During decoding, we generate the mel-spectrum in chunks using Flow
+Matching, ensuring that each code chunk has access to the necessary contextual blocks. This approach
+enhances the quality of streaming outputs by maintaining contextual information. We also use this
+chunk-by-chunk method for BigVGAN’s fixed receptive field to facilitate streaming waveform generation
+5

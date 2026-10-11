@@ -1,0 +1,61 @@
+1
+Introduction
+In daily life, humans are capable of simultaneously perceiving the visual and auditory information
+around them. After processing this information through the brain, they express feedback through
+writing, vocalization, or using tools (and physical actions), thereby engaging in information exchange
+with various organisms in the world and exhibiting intelligence. In recent years, general artificial
+intelligence has become increasingly visible, largely due to advancements in Large Language Models
+(LLMs) (Brown et al., 2020; OpenAI, 2023; 2024; Gemini Team, 2024; Anthropic, 2023a;b; 2024; Bai et al.,
+2023a; Yang et al., 2024a; Touvron et al., 2023a;b; Dubey et al., 2024a). These models, trained on vast
+amounts of textual data, represent high-level discrete representation created by humans, showcasing
+the ability to solve complex problems and learn rapidly. Furthermore, in the realm of understanding,
+Language-Audio-Language Models (LALMs) (OpenAI, 2024; Tang et al., 2024; Chu et al., 2023b; 2024b)
+and Language-Visual-Language Models (LVLMs) (Li et al., 2023; Liu et al., 2023b; Dai et al., 2023; Zhu
+et al., 2023; Huang et al., 2023; Bai et al., 2023b; Liu et al., 2023a; Wang et al., 2023b; OpenAI., 2023;
+Gemini Team, 2024) have helped LLMs to further extend auditory and visual capabilities in an end-to-end
+manner. However, efficiently unifying all these different understanding modalities in an end-to-end
+fashion, utilizing as much data as possible, and providing responses in both text and speech streams akin
+to human communication still presents a significant challenge.
+The development of a unified and intelligent omni-model requires careful consideration of several key
+factors. First, it is crucial to implement a systematic method for the joint training of various modalities,
+including text, images, videos, and audio, to foster mutual enhancement among them. This alignment
+is particularly important for video content, where synchronization of the temporal aspects of audio
+and visual signals is necessary. Second, it is essential to manage potential interference among outputs
+from different modalities, ensuring that the training processes for outputs such as text and voice tokens
+do not disrupt each other. Finally, there is a need to explore architectural designs that enable real-
+time understanding of multimodal information and allow for efficient audio output streaming, thereby
+reducing initial latency.
+In this report, we introduce Qwen2.5-Omni, a unified single model capable of processing multiple
+modalities and generating text and natural speech responses simultaneously in a streaming format. To
+tackle the first challenge, we propose a novel position embedding approach, named TMRoPE (Time-
+aligned Multimodal RoPE). We organize these audio and video frames in an interleaved structure to
+represent video sequences in time order. For the second challenge, we present Thinker-Talker architecture,
+wherein Thinker is tasked with text generation while the Talker focuses on generating streaming speech
+tokens. Talker receives high-level representations directly from Thinker. This design is inspired by the
+way humans utilize different organs to produce various signals, which are simultaneously coordinated
+through the same neural networks. As a result, Thinker-Talker architecture is end-to-end jointly trained,
+with each component dedicated to generating distinct signals. To address the challenges associated with
+streaming and to facilitate the pre-filling necessary for real-time comprehension of multimodal signals,
+we propose modifications to all multimodal encoders by adopting a block-wise streaming processing
+approach. In order to support streaming speech generation, we implement a dual-track autoregressive
+model that generates speech tokens, alongside a DiT model which converts these tokens into waveforms,
+thereby enabling streaming audio generation and minimizing initial latency. This design aims to enable
+the model to process multimodal information in real-time and effectively perform pre-filling, thereby
+enabling the concurrent generation of text and speech signals.
+Qwen2.5-Omni is comparable with the similarly sized Qwen2.5-VL (Wang et al., 2024c) and outperforms
+Qwen2-Audio (Chu et al., 2024b) in image and audio capabilities respectively. Furthermore, Qwen2.5-
+Omni achieves state-of-the-art performance on multimodal benchmarks such as OmniBench (Li et al.,
+2024b) and AV-Odyssey Bench (Gong et al., 2024). Notably, Qwen2.5-Omni’s performance in end-to-
+end speech instruction following is comparable to its capabilities with text inputs, as evidenced by
+benchmarks such as MMLU (Hendrycks et al., 2021a) and GSM8K (Cobbe et al., 2021). As for speech
+generation, Qwen2.5-Omni achieves 1.42%, 2.33% and 6.54% WER on seed-tts-eval (Anastassiou et al.,
+2024) test-zh, test-en and test-hard set respectively, outperforming MaskGCT (Wang et al., 2024e) and
+CosyVoice 2 (Du et al., 2024).
+The key features of Qwen2.5-Omni can be summarized as:
+• We introduce Qwen2.5-Omni, a unified model that can perceive all modalities and simultaneously
+generate text and natural speech responses in a streaming fashion.
+• We present a novel positional embedding algorithm, termed TMRoPE, which explicitly incorpo-
+rates temporal information for synchronizing audio and video.
+• We propose the Thinker-Talker Architecture to facilitate real-time comprehension and speech
+generation.
+2

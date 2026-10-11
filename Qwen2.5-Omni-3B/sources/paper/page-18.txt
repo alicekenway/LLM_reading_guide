@@ -1,0 +1,49 @@
+Pan Lu, Hritik Bansal, Tony Xia, Jiacheng Liu, Chunyuan Li, Hannaneh Hajishirzi, Hao Cheng, Kai-Wei
+Chang, Michel Galley, and Jianfeng Gao. Mathvista: Evaluating mathematical reasoning of foundation
+models in visual contexts. In ICLR, 2024b.
+Karttikeya Mangalam, Raiymbek Akshulakov, and Jitendra Malik. Egoschema: A diagnostic benchmark
+for very long-form video language understanding. In NeurIPS, 2023.
+Junhua Mao, Jonathan Huang, Alexander Toshev, Oana Camburu, Alan Yuille, and Kevin Murphy.
+Generation and comprehension of unambiguous object descriptions, 2016. URL https://arxiv.org/
+abs/1511.02283.
+Ahmed Masry, Do Xuan Long, Jia Qing Tan, Shafiq Joty, and Enamul Hoque. Chartqa: A benchmark for
+question answering about charts with visual and logical reasoning. arXiv:2203.10244, 2022.
+Minesh Mathew, Dimosthenis Karatzas, and CV Jawahar. Docvqa: A dataset for vqa on document images.
+In WACV, 2021.
+OpenAI. ChatML, 2022. URL https://github.com/openai/openai-python/blob/e389823ba013a24b4c3
+2ce38fa0bd87e6bccae94/chatml.md.
+OpenAI. GPT4 technical report. CoRR, abs/2303.08774, 2023.
+OpenAI. Gpt-4v(ision) system card, 2023. URL https://openai.com/research/gpt-4v-system-card.
+OpenAI. Hello GPT-4o, 2024. URL https://openai.com/index/hello-gpt-4o/.
+Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, and Ilya Sutskever. Robust
+speech recognition via large-scale weak supervision. In International Conference on Machine Learning,
+ICML 2023, 23-29 July 2023, Honolulu, Hawaii, USA, 2023.
+Rafael Rafailov, Archit Sharma, Eric Mitchell, Christopher D. Manning, Stefano Ermon, and Chelsea Finn.
+Direct preference optimization: Your language model is secretly a reward model. In NeurIPS, 2023.
+David Rein, Betty Li Hou, Asa Cooper Stickland, Jackson Petty, Richard Yuanzhe Pang, Julien Dirani,
+Julian Michael, and Samuel R. Bowman. GPQA: A graduate-level Google-proof Q&A benchmark.
+CoRR, abs/2311.12022, 2023.
+S Sakshi, Utkarsh Tyagi, Sonal Kumar, Ashish Seth, Ramaneswaran Selvakumar, Oriol Nieto, Ramani
+Duraiswami, Sreyan Ghosh, and Dinesh Manocha. Mmau: A massive multi-task audio understanding
+and reasoning benchmark, 2024. URL https://arxiv.org/abs/2410.19168.
+Amanpreet Singh, Vivek Natarajan, Meet Shah, Yu Jiang, Xinlei Chen, Dhruv Batra, Devi Parikh, and
+Marcus Rohrbach. Towards vqa models that can read. In CVPR, 2019.
+Guangzhi Sun, Wenyi Yu, Changli Tang, Xianzhao Chen, Tian Tan, Wei Li, Lu Lu, Zejun Ma, Yuxuan
+Wang, and Chao Zhang. video-salmonn: Speech-enhanced audio-visual large language models. arXiv
+preprint arXiv:2406.15704, 2024.
+Changli Tang, Wenyi Yu, Guangzhi Sun, Xianzhao Chen, Tian Tan, Wei Li, Lu Lu, Zejun Ma, and Chao
+Zhang. SALMONN: towards generic hearing abilities for large language models. In The Twelfth
+International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024, 2024.
+Gemini Team, Petko Georgiev, Ving Ian Lei, Ryan Burnell, Libin Bai, Anmol Gulati, Garrett Tanzer,
+Damien Vincent, Zhufeng Pan, Shibo Wang, et al. Gemini 1.5: Unlocking multimodal understanding
+across millions of tokens of context. arXiv preprint arXiv:2403.05530, 2024.
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix,
+Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, et al. Llama: Open and efficient foundation
+language models. arXiv:2302.13971, 2023a.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay
+Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and
+fine-tuned chat models. arXiv:2307.09288, 2023b.
+Chen Wang, Minpeng Liao, Zhongqiang Huang, Jinliang Lu, Junhong Wu, Yuchen Liu, Chengqing
+Zong, and Jiajun Zhang. Blsp: Bootstrapping language-speech pre-training via behavior alignment of
+continuation writing. arXiv:2309.00916, 2023a.
+18

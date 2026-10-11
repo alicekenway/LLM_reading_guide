@@ -1,0 +1,105 @@
+et al., 2021), ChartQA (Masry et al., 2022), and OCRBench_v2 (Fu et al., 2024b). Furthermore, we
+also evaluate the visual grounding capability of our model on the referring expression comprehension
+benchmarks (Kazemzadeh et al., 2014; Mao et al., 2016), object detection in the wild (Li et al., 2022) and a
+self-curated point grounding benchmark.
+Video (w/o Audio)→Text
+We assess our model on several representative video understanding tasks
+like Video-MME (Fu et al., 2024a), MVBench (Li et al., 2024a), and EgoSchema (Mangalam et al., 2023).
+Multimodality→Text
+We demonstrate the ability of our model for mixed-modality (image, audio and
+text) prompts on OmniBench (Li et al., 2024b).
+5.1.1
+Performance of Text→Text
+We compare Qwen2.5-Omni with other leading large language model of similar size (7B). As shown in
+Table 1, the performance of Qwen2.5-Omni generally falls between Qwen2-7B and Qwen2.5-7B. Our
+model outperforms Qwen2-7B on most benchmarks, such as MMLU-Pro, MMLU-redux, MATH, GSM8K,
+MBPP, MultiPL-E and LiveCodeBench, which demonstrates the exceptional capabilities of our model for
+Text→Text.
+Table 1: Text →Text performance of 7B+ pure text models and Qwen2.5-Omni
+Datasets
+Gemma2-9B Llama3.1-8B Qwen2-7B Qwen2.5-7B Qwen2.5-Omni-7B
+General Tasks
+MMLU-Pro
+52.1
+48.3
+44.1
+56.3
+47.0
+MMLU-redux
+72.8
+67.2
+67.3
+75.4
+71.0
+LiveBench0831
+30.6
+26.7
+29.2
+35.9
+29.6
+Mathematics & Science Tasks
+GPQA
+32.8
+32.8
+34.3
+36.4
+30.8
+MATH
+44.3
+51.9
+52.9
+75.5
+71.5
+GSM8K
+76.7
+84.5
+85.7
+91.6
+88.7
+Coding Tasks
+HumanEval
+68.9
+72.6
+79.9
+84.8
+78.7
+MBPP
+74.9
+69.6
+67.2
+79.2
+73.2
+MultiPL-E
+53.4
+50.7
+59.1
+70.4
+65.8
+LiveCodeBench2305-2409
+18.9
+8.3
+23.9
+28.7
+24.6
+5.1.2
+Performance of Audio→Text
+We compare Qwen2.5-Omni with other leading specialist or generalist models on diverse audio under-
+standing, audio reasoning, and voice-chatting benchmarks. As shown in Table 2 and 3, Qwen2.5-Omni
+delivers better or comparable performance with other state-of-the-art methods on audio understanding.
+For instance, it achieves superior ASR and S2TT performance on Fleurs_zh, CommonVoice_en, Com-
+monVoice_zh, CoVoST2_en-de and CoVoST2_zh-en test sets, surpassing previous state-of-the-art models
+like Whisper-large-v3, Qwen2Audio, MinMo and other Omni models. Qwen2.5-Omni also achieves
+state-of-the-art performance on general audio understanding tasks like music and VSC. Additionally,
+Qwen2.5-Omni achieves state-of-the-art results on audio reasoning with superior performance on sound,
+music and speech subsets of MMAU benchmark. These results demonstrate the powerful capabilities of
+Qwen2.5-Omni in general audio understanding and reasoning.
+Additionally, on VoiceBench, Qwen2.5-Omni achieves an impressive average score of 74.12, surpassing
+other audio language models and omni models of similar size. This showcases our model’s strong
+capabilities in speech interaction. To further explore the performance of diverse speech interaction, we
+convert text instructions from several pure-text benchmarks into speech and evaluate Qwen2.5-Omni,
+Qwen2-Audio and Qwen2-7B on the in-house voice-chat benchmark. About 90% of text-instructions
+are utilized. We use speech instruction for Qwen2.5-Omni and Qwen2-Audio, and text instruction for
+Qwen2-7B. As shown in Table 4, compared to Qwen2-Audio, Qwen2.5-Omni significantly narrowes
+the gap with Qwen2-7B, which uses text instructions. This reflects our model’s substantial progress in
+diversified end-to-end speech interaction.
+8

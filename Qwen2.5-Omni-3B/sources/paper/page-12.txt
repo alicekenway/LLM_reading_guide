@@ -1,0 +1,87 @@
+Table 7: Video →text performance of 7B+ models and Qwen2.5-Omni
+Datasets
+GPT-4o-mini Qwen2.5-VL-7B
+Other Best
+Qwen2.5-Omni-7B
+Video Understanding
+Video-MMEw/o sub
+64.8
+65.1
+63.9 (Yao et al., 2024)
+64.3
+Video-MMEw sub
+-
+71.6
+67.9 (Yao et al., 2024)
+72.4
+MVBench
+-
+69.6
+67.2 (Zhong et al., 2024)
+70.3
+EgoSchematest
+-
+65.0
+63.2 (Zhong et al., 2024)
+68.6
+Table 8: Multimodality →Text performance of State-of-the-art and Qwen2.5-Omni
+Datasets
+Model
+Performance
+Multimodal Understanding
+OmniBench
+Speech | Sound Event |
+Music | Avg
+Gemini-1.5-Pro (Team et al., 2024)
+42.67% | 42.26% | 46.23% | 42.91%
+MIO-Instruct (Wang et al., 2024g) (7B)
+36.96% | 33.58% | 11.32% | 33.80%
+AnyGPT (7B) (Zhan et al., 2024)
+17.77% | 20.75% | 13.21% | 18.04%
+video-SALMONN (13B) (Sun et al., 2024)
+34.11% | 31.70% | 56.60% | 35.64%
+UnifiedIO2-xlarge (3.2B) (Lu et al., 2024a)
+39.56% | 36.98% | 29.25% | 38.00%
+UnifiedIO2-xxlarge (6.8B) (Lu et al., 2024a)
+34.24% | 36.98% | 24.53% | 33.98%
+MiniCPM-o (Yao et al., 2024)
+- | - | - | 40.5%
+Baichuan-Omni-1.5 (Li et al., 2025)
+- | - | - | 42.9%
+Qwen2.5-Omni-7B
+55.25% | 60.00% | 52.83% | 56.13%
+5.2
+Evaluation of X→Speech
+In this section, we evaluate the speech generation capabilities of Qwen2.5-Omni. Due to the lack of
+relevant assessments, the evaluation of speech generation focuses primarily speech generation given
+texts, similarity to text-to-speech (TTS), on two aspects: Zero-shot and Single-Speaker speech generation
+capabilities.
+• Zero-Shot Speech Generation We assessed the content consistency (WER) and speaker similarity
+(SIM) of our model in zero-shot speech generation on SEED (Anastassiou et al., 2024).
+• Single-Speaker Speech Generation We assessed the stability of our speaker fine-tuned model
+on the SEED (Anastassiou et al., 2024), and evaluated the subjective naturalness (NMOS) of the
+generated speech on a self-created dataset.
+5.2.1
+Evaluation of Zero-Shot Speech Generation.
+We compared the Qwen2.5-Omni with state-of-the-art zero-shot TTS systems. As shown in Table 9,
+Qwen2.5-Omni demonstrates highly competitive performance, highlighting its robust speech under-
+standing and generation capabilities developed through in-context learning (ICL). Additionally, after
+reinforcement learning (RL) optimization, Qwen2.5-Omni showed significant improvements in genera-
+tion stability, with marked reductions in attention misalignment, pronunciation errors, and inappropriate
+pauses on the challenging test-hard dataset.
+5.2.2
+Evaluation of Single-Speaker Speech Generation.
+We compared the Qwen2.5-Omni model before and after speaker fine-tuning, as well as with human
+recordings. As shown in Table 10, the speaker-finetuned Qwen2.5-Omni more precisely captured the
+nuanced prosodic styles of the target speakers while preserving the foundational stability provided by
+the base model, achieving performance that approaches human-level quality across both subjective and
+objective metrics.
+6
+Conclusion
+Qwen2.5-Omni is a unified model designed to understand and generate multiple modalities, including
+text and real-time speech. To enhance video integration, we’ve introduced a new positional embedding
+method called TMRoPE, which aligns audio and video timing. Our Thinker-Talker framework supports
+real-time speech generation while minimizing interference across different modalities. Additionally, we
+employ techniques such as block-wise audio/vision encoding and a sliding window mechanism for code-
+to-wav generation. This innovative model excels in complex audio-visual interactions and emotional
+12

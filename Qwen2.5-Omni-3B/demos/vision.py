@@ -1,0 +1,12 @@
+patch_ids=np.arange(16*16).reshape(16,16)
+merge_groups=np.repeat(np.repeat(np.arange(64).reshape(8,8),2,axis=0),2,axis=1)
+fig,axes=plt.subplots(1,2,figsize=(10,4.5),layout="constrained")
+axes[0].imshow(patch_ids,cmap="cividis",interpolation="nearest")
+axes[0].set(title="224×224 image → 16×16 raw spatial patches",xlabel="Patch column",ylabel="Patch row")
+axes[1].imshow(merge_groups,cmap="cividis",interpolation="nearest")
+axes[1].set(title="Each 2×2 group → one of 64 output vectors",xlabel="Patch column",ylabel="Patch row")
+for ax in axes:
+    ax.set_xticks([0,4,8,12,15]);ax.set_yticks([0,4,8,12,15])
+finish_figure(fig,"vision_patches")
+print("Before merging: (256,1280); grouped: (64,5120); projected: (64,2048)")
+print("This colored grid illustrates grouping, not learned visual features.")

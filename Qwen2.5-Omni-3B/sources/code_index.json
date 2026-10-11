@@ -1,0 +1,2396 @@
+{
+  "dynamic_rope_update": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 30,
+    "end_line": 89,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L30-L89"
+  },
+  "dynamic_rope_update.longrope_frequency_update": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 43,
+    "end_line": 60,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L43-L60"
+  },
+  "dynamic_rope_update.dynamic_frequency_update": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 62,
+    "end_line": 79,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L62-L79"
+  },
+  "dynamic_rope_update.wrapper": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 82,
+    "end_line": 87,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L82-L87"
+  },
+  "_compute_default_rope_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 92,
+    "end_line": 131,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L92-L131"
+  },
+  "_compute_linear_scaling_rope_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 134,
+    "end_line": 172,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L134-L172"
+  },
+  "_compute_dynamic_ntk_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 175,
+    "end_line": 223,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L175-L223"
+  },
+  "_compute_yarn_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 226,
+    "end_line": 319,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L226-L319"
+  },
+  "_compute_yarn_parameters.get_mscale": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 269,
+    "end_line": 272,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L269-L272"
+  },
+  "_compute_yarn_parameters.find_correction_dim": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 287,
+    "end_line": 289,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L287-L289"
+  },
+  "_compute_yarn_parameters.find_correction_range": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 291,
+    "end_line": 295,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L291-L295"
+  },
+  "_compute_yarn_parameters.linear_ramp_factor": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 297,
+    "end_line": 303,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L297-L303"
+  },
+  "_compute_longrope_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 322,
+    "end_line": 382,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L322-L382"
+  },
+  "_compute_llama3_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 385,
+    "end_line": 425,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L385-L425"
+  },
+  "_check_received_keys": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 441,
+    "end_line": 467,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L441-L467"
+  },
+  "_validate_default_rope_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 470,
+    "end_line": 475,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L470-L475"
+  },
+  "_validate_linear_scaling_rope_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 478,
+    "end_line": 487,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L478-L487"
+  },
+  "_validate_dynamic_scaling_rope_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 490,
+    "end_line": 501,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L490-L501"
+  },
+  "_validate_yarn_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 504,
+    "end_line": 539,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L504-L539"
+  },
+  "_validate_longrope_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 542,
+    "end_line": 589,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L542-L589"
+  },
+  "_validate_llama3_parameters": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 592,
+    "end_line": 625,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L592-L625"
+  },
+  "rope_config_validation": {
+    "local_path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "start_line": 639,
+    "end_line": 655,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py#L639-L655"
+  },
+  "load_audio": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 34,
+    "end_line": 64,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L34-L64"
+  },
+  "hertz_to_mel": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 72,
+    "end_line": 105,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L72-L105"
+  },
+  "mel_to_hertz": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 108,
+    "end_line": 141,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L108-L141"
+  },
+  "hertz_to_octave": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 144,
+    "end_line": 164,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L144-L164"
+  },
+  "_create_triangular_filter_bank": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 167,
+    "end_line": 186,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L167-L186"
+  },
+  "chroma_filter_bank": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 189,
+    "end_line": 261,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L189-L261"
+  },
+  "mel_filter_bank": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 264,
+    "end_line": 355,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L264-L355"
+  },
+  "optimal_fft_length": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 358,
+    "end_line": 368,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L358-L368"
+  },
+  "window_function": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 371,
+    "end_line": 431,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L371-L431"
+  },
+  "spectrogram": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 435,
+    "end_line": 643,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L435-L643"
+  },
+  "spectrogram_batch": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 646,
+    "end_line": 854,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L646-L854"
+  },
+  "power_to_db": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 857,
+    "end_line": 905,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L857-L905"
+  },
+  "power_to_db_batch": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 908,
+    "end_line": 954,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L908-L954"
+  },
+  "amplitude_to_db": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 957,
+    "end_line": 1003,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L957-L1003"
+  },
+  "amplitude_to_db_batch": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 1006,
+    "end_line": 1048,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L1006-L1048"
+  },
+  "get_mel_filter_banks": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 1054,
+    "end_line": 1075,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L1054-L1075"
+  },
+  "fram_wave": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 1078,
+    "end_line": 1131,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L1078-L1131"
+  },
+  "stft": {
+    "local_path": "sources/transformers/src/transformers/audio_utils.py",
+    "start_line": 1134,
+    "end_line": 1193,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py#L1134-L1193"
+  },
+  "TextKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 93,
+    "end_line": 148,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L93-L148"
+  },
+  "ImagesKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 151,
+    "end_line": 206,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L151-L206"
+  },
+  "VideosKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 209,
+    "end_line": 254,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L209-L254"
+  },
+  "AudioKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 257,
+    "end_line": 293,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L257-L293"
+  },
+  "CommonKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 296,
+    "end_line": 297,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L296-L297"
+  },
+  "ProcessingKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 300,
+    "end_line": 352,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L300-L352"
+  },
+  "TokenizerChatTemplateKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 355,
+    "end_line": 391,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L355-L391"
+  },
+  "ChatTemplateLoadKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 394,
+    "end_line": 423,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L394-L423"
+  },
+  "ProcessorChatTemplateKwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 426,
+    "end_line": 437,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L426-L437"
+  },
+  "AllKwargsForChatTemplate": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 440,
+    "end_line": 451,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L440-L451"
+  },
+  "ProcessorMixin": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 454,
+    "end_line": 1616,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L454-L1616"
+  },
+  "ProcessorMixin.__init__": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 469,
+    "end_line": 505,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L469-L505"
+  },
+  "ProcessorMixin.to_dict": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 507,
+    "end_line": 545,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L507-L545"
+  },
+  "ProcessorMixin.to_json_string": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 547,
+    "end_line": 556,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L547-L556"
+  },
+  "ProcessorMixin.to_json_file": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 558,
+    "end_line": 567,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L558-L567"
+  },
+  "ProcessorMixin.__repr__": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 569,
+    "end_line": 572,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L569-L572"
+  },
+  "ProcessorMixin.save_pretrained": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 574,
+    "end_line": 714,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L574-L714"
+  },
+  "ProcessorMixin.get_processor_dict": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 717,
+    "end_line": 943,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L717-L943"
+  },
+  "ProcessorMixin.from_args_and_dict": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 946,
+    "end_line": 986,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L946-L986"
+  },
+  "ProcessorMixin._merge_kwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 988,
+    "end_line": 1116,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L988-L1116"
+  },
+  "ProcessorMixin.from_pretrained": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1119,
+    "end_line": 1179,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1119-L1179"
+  },
+  "ProcessorMixin.register_for_auto_class": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1182,
+    "end_line": 1205,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1182-L1205"
+  },
+  "ProcessorMixin._get_arguments_from_pretrained": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1208,
+    "end_line": 1241,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1208-L1241"
+  },
+  "ProcessorMixin.get_possibly_dynamic_module": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1244,
+    "end_line": 1265,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1244-L1265"
+  },
+  "ProcessorMixin.model_input_names": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1268,
+    "end_line": 1270,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1268-L1270"
+  },
+  "ProcessorMixin.validate_init_kwargs": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1273,
+    "end_line": 1279,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1273-L1279"
+  },
+  "ProcessorMixin.prepare_and_validate_optional_call_args": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1281,
+    "end_line": 1337,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1281-L1337"
+  },
+  "ProcessorMixin._process_messages_for_chat_template": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1339,
+    "end_line": 1371,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1339-L1371"
+  },
+  "ProcessorMixin.apply_chat_template": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1373,
+    "end_line": 1566,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1373-L1566"
+  },
+  "ProcessorMixin._load_video_for_model": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1570,
+    "end_line": 1598,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1570-L1598"
+  },
+  "ProcessorMixin.post_process_image_text_to_text": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1600,
+    "end_line": 1616,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1600-L1616"
+  },
+  "_validate_images_text_input_order": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1619,
+    "end_line": 1674,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1619-L1674"
+  },
+  "_validate_images_text_input_order.is_url": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1627,
+    "end_line": 1628,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1627-L1628"
+  },
+  "_validate_images_text_input_order._is_valid_images_input_for_processor": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1630,
+    "end_line": 1639,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1630-L1639"
+  },
+  "_validate_images_text_input_order._is_valid_text_input_for_processor": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1641,
+    "end_line": 1652,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1641-L1652"
+  },
+  "_validate_images_text_input_order._is_valid": {
+    "local_path": "sources/transformers/src/transformers/processing_utils.py",
+    "start_line": 1654,
+    "end_line": 1655,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/processing_utils.py#L1654-L1655"
+  },
+  "GenerateDecoderOnlyOutput": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 136,
+    "end_line": 168,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L136-L168"
+  },
+  "GenerateEncoderDecoderOutput": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 172,
+    "end_line": 216,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L172-L216"
+  },
+  "GenerateBeamDecoderOnlyOutput": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 220,
+    "end_line": 260,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L220-L260"
+  },
+  "GenerateBeamEncoderDecoderOutput": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 264,
+    "end_line": 317,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L264-L317"
+  },
+  "GenerationMixin": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 348,
+    "end_line": 4895,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L348-L4895"
+  },
+  "GenerationMixin._cache_dependant_input_preparation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 380,
+    "end_line": 412,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L380-L412"
+  },
+  "GenerationMixin._cache_dependant_input_preparation_exporting": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 414,
+    "end_line": 474,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L414-L474"
+  },
+  "GenerationMixin.prepare_inputs_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 476,
+    "end_line": 608,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L476-L608"
+  },
+  "GenerationMixin._prepare_model_inputs": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 610,
+    "end_line": 672,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L610-L672"
+  },
+  "GenerationMixin._maybe_initialize_input_ids_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 674,
+    "end_line": 704,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L674-L704"
+  },
+  "GenerationMixin._prepare_attention_mask_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 706,
+    "end_line": 740,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L706-L740"
+  },
+  "GenerationMixin._prepare_encoder_decoder_kwargs_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 742,
+    "end_line": 781,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L742-L781"
+  },
+  "GenerationMixin._prepare_decoder_input_ids_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 783,
+    "end_line": 840,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L783-L840"
+  },
+  "GenerationMixin._expand_inputs_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 843,
+    "end_line": 875,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L843-L875"
+  },
+  "GenerationMixin._expand_inputs_for_generation._expand_dict_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 855,
+    "end_line": 863,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L855-L863"
+  },
+  "GenerationMixin._update_model_kwargs_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 877,
+    "end_line": 924,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L877-L924"
+  },
+  "GenerationMixin._reorder_cache": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 926,
+    "end_line": 930,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L926-L930"
+  },
+  "GenerationMixin._get_candidate_generator": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 932,
+    "end_line": 1010,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L932-L1010"
+  },
+  "GenerationMixin._get_logits_processor": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1012,
+    "end_line": 1241,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1012-L1241"
+  },
+  "GenerationMixin._get_stopping_criteria": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1243,
+    "end_line": 1280,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1243-L1280"
+  },
+  "GenerationMixin._merge_criteria_processor_list": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1282,
+    "end_line": 1317,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1282-L1317"
+  },
+  "GenerationMixin.compute_transition_scores": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1319,
+    "end_line": 1439,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1319-L1439"
+  },
+  "GenerationMixin._validate_assistant": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1441,
+    "end_line": 1469,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1441-L1469"
+  },
+  "GenerationMixin._validate_model_kwargs": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1471,
+    "end_line": 1525,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1471-L1525"
+  },
+  "GenerationMixin._validate_generated_length": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1527,
+    "end_line": 1569,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1527-L1569"
+  },
+  "GenerationMixin._prepare_generated_length": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1571,
+    "end_line": 1625,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1571-L1625"
+  },
+  "GenerationMixin._prepare_generation_config": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1627,
+    "end_line": 1705,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1627-L1705"
+  },
+  "GenerationMixin._get_initial_cache_position": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1707,
+    "end_line": 1731,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1707-L1731"
+  },
+  "GenerationMixin._get_layer_device_map_for_cache_init": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1733,
+    "end_line": 1809,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1733-L1809"
+  },
+  "GenerationMixin._get_cache": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1811,
+    "end_line": 1873,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1811-L1873"
+  },
+  "GenerationMixin._supports_default_dynamic_cache": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1875,
+    "end_line": 1888,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1875-L1888"
+  },
+  "GenerationMixin._prepare_cache_for_generation": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 1890,
+    "end_line": 2009,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L1890-L2009"
+  },
+  "GenerationMixin._supports_logits_to_keep": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 2011,
+    "end_line": 2016,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L2011-L2016"
+  },
+  "GenerationMixin._prepare_special_tokens": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 2018,
+    "end_line": 2098,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L2018-L2098"
+  },
+  "GenerationMixin._prepare_special_tokens._tensor_or_none": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 2034,
+    "end_line": 2041,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L2034-L2041"
+  },
+  "GenerationMixin.generate": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 2101,
+    "end_line": 2587,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L2101-L2587"
+  },
+  "GenerationMixin._has_unfinished_sequences": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 2589,
+    "end_line": 2605,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L2589-L2605"
+  },
+  "GenerationMixin.heal_tokens": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 2607,
+    "end_line": 2690,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L2607-L2690"
+  },
+  "GenerationMixin._dola_decoding": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 2692,
+    "end_line": 2902,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L2692-L2902"
+  },
+  "GenerationMixin._contrastive_search": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 2905,
+    "end_line": 3317,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L2905-L3317"
+  },
+  "GenerationMixin._sample": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3319,
+    "end_line": 3510,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3319-L3510"
+  },
+  "GenerationMixin._temporary_reorder_cache": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3513,
+    "end_line": 3537,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3513-L3537"
+  },
+  "GenerationMixin._flatten_beam_dim": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3540,
+    "end_line": 3543,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3540-L3543"
+  },
+  "GenerationMixin._unflatten_beam_dim": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3546,
+    "end_line": 3549,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3546-L3549"
+  },
+  "GenerationMixin._gather_beams": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3552,
+    "end_line": 3569,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3552-L3569"
+  },
+  "GenerationMixin._beam_search_has_unfinished_sequences": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3572,
+    "end_line": 3609,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3572-L3609"
+  },
+  "GenerationMixin._get_top_k_continuations": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3611,
+    "end_line": 3663,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3611-L3663"
+  },
+  "GenerationMixin._get_running_beams_for_next_iteration": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3665,
+    "end_line": 3685,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3665-L3685"
+  },
+  "GenerationMixin._update_finished_beams": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3687,
+    "end_line": 3734,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3687-L3734"
+  },
+  "GenerationMixin._beam_search": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 3738,
+    "end_line": 4060,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L3738-L4060"
+  },
+  "GenerationMixin._group_beam_search": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 4062,
+    "end_line": 4351,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L4062-L4351"
+  },
+  "GenerationMixin._constrained_beam_search": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 4353,
+    "end_line": 4589,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L4353-L4589"
+  },
+  "GenerationMixin._assisted_decoding": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 4591,
+    "end_line": 4856,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L4591-L4856"
+  },
+  "GenerationMixin._prefill_chunking": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 4858,
+    "end_line": 4895,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L4858-L4895"
+  },
+  "_speculative_sampling": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 4898,
+    "end_line": 4951,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L4898-L4951"
+  },
+  "_split_model_outputs": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 4954,
+    "end_line": 4977,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L4954-L4977"
+  },
+  "_ranking_fast": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 4980,
+    "end_line": 5008,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L4980-L5008"
+  },
+  "_split": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 5011,
+    "end_line": 5044,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L5011-L5044"
+  },
+  "_split_model_inputs": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 5047,
+    "end_line": 5108,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L5047-L5108"
+  },
+  "stack_model_outputs": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 5111,
+    "end_line": 5162,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L5111-L5162"
+  },
+  "stack_model_outputs._concat": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 5127,
+    "end_line": 5153,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L5127-L5153"
+  },
+  "_relative_top_filter": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 5165,
+    "end_line": 5187,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L5165-L5187"
+  },
+  "_dola_select_contrast": {
+    "local_path": "sources/transformers/src/transformers/generation/utils.py",
+    "start_line": 5190,
+    "end_line": 5234,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/generation/utils.py#L5190-L5234"
+  },
+  "fixed_cross_entropy": {
+    "local_path": "sources/transformers/src/transformers/loss/loss_utils.py",
+    "start_line": 27,
+    "end_line": 38,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/loss/loss_utils.py#L27-L38"
+  },
+  "ForCausalLMLoss": {
+    "local_path": "sources/transformers/src/transformers/loss/loss_utils.py",
+    "start_line": 41,
+    "end_line": 64,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/loss/loss_utils.py#L41-L64"
+  },
+  "ForMaskedLMLoss": {
+    "local_path": "sources/transformers/src/transformers/loss/loss_utils.py",
+    "start_line": 67,
+    "end_line": 85,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/loss/loss_utils.py#L67-L85"
+  },
+  "ForSequenceClassificationLoss": {
+    "local_path": "sources/transformers/src/transformers/loss/loss_utils.py",
+    "start_line": 88,
+    "end_line": 112,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/loss/loss_utils.py#L88-L112"
+  },
+  "ForQuestionAnsweringLoss": {
+    "local_path": "sources/transformers/src/transformers/loss/loss_utils.py",
+    "start_line": 115,
+    "end_line": 131,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/loss/loss_utils.py#L115-L131"
+  },
+  "ForTokenClassification": {
+    "local_path": "sources/transformers/src/transformers/loss/loss_utils.py",
+    "start_line": 134,
+    "end_line": 140,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/loss/loss_utils.py#L134-L140"
+  },
+  "WhisperFeatureExtractor": {
+    "local_path": "sources/transformers/src/transformers/models/whisper/feature_extraction_whisper.py",
+    "start_line": 36,
+    "end_line": 335,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/whisper/feature_extraction_whisper.py#L36-L335"
+  },
+  "WhisperFeatureExtractor.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/whisper/feature_extraction_whisper.py",
+    "start_line": 72,
+    "end_line": 106,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/whisper/feature_extraction_whisper.py#L72-L106"
+  },
+  "WhisperFeatureExtractor._np_extract_fbank_features": {
+    "local_path": "sources/transformers/src/transformers/models/whisper/feature_extraction_whisper.py",
+    "start_line": 108,
+    "end_line": 136,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/whisper/feature_extraction_whisper.py#L108-L136"
+  },
+  "WhisperFeatureExtractor._torch_extract_fbank_features": {
+    "local_path": "sources/transformers/src/transformers/models/whisper/feature_extraction_whisper.py",
+    "start_line": 138,
+    "end_line": 167,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/whisper/feature_extraction_whisper.py#L138-L167"
+  },
+  "WhisperFeatureExtractor.zero_mean_unit_var_norm": {
+    "local_path": "sources/transformers/src/transformers/models/whisper/feature_extraction_whisper.py",
+    "start_line": 171,
+    "end_line": 190,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/whisper/feature_extraction_whisper.py#L171-L190"
+  },
+  "WhisperFeatureExtractor.__call__": {
+    "local_path": "sources/transformers/src/transformers/models/whisper/feature_extraction_whisper.py",
+    "start_line": 192,
+    "end_line": 335,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/whisper/feature_extraction_whisper.py#L192-L335"
+  },
+  "Qwen2_5OmniVisionEncoderConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 31,
+    "end_line": 112,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L31-L112"
+  },
+  "Qwen2_5OmniVisionEncoderConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 81,
+    "end_line": 112,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L81-L112"
+  },
+  "Qwen2_5OmniAudioEncoderConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 115,
+    "end_line": 210,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L115-L210"
+  },
+  "Qwen2_5OmniAudioEncoderConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 176,
+    "end_line": 210,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L176-L210"
+  },
+  "Qwen2_5OmniTextConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 213,
+    "end_line": 396,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L213-L396"
+  },
+  "Qwen2_5OmniTextConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 342,
+    "end_line": 396,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L342-L396"
+  },
+  "Qwen2_5OmniThinkerConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 399,
+    "end_line": 511,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L399-L511"
+  },
+  "Qwen2_5OmniThinkerConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 467,
+    "end_line": 511,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L467-L511"
+  },
+  "Qwen2_5OmniTalkerConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 514,
+    "end_line": 754,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L514-L754"
+  },
+  "Qwen2_5OmniTalkerConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 666,
+    "end_line": 754,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L666-L754"
+  },
+  "Qwen2_5OmniDiTConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 757,
+    "end_line": 854,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L757-L854"
+  },
+  "Qwen2_5OmniDiTConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 804,
+    "end_line": 854,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L804-L854"
+  },
+  "Qwen2_5OmniBigVGANConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 857,
+    "end_line": 895,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L857-L895"
+  },
+  "Qwen2_5OmniBigVGANConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 879,
+    "end_line": 895,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L879-L895"
+  },
+  "Qwen2_5OmniToken2WavConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 898,
+    "end_line": 954,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L898-L954"
+  },
+  "Qwen2_5OmniToken2WavConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 947,
+    "end_line": 954,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L947-L954"
+  },
+  "Qwen2_5OmniConfig": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 957,
+    "end_line": 1036,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L957-L1036"
+  },
+  "Qwen2_5OmniConfig.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py",
+    "start_line": 1011,
+    "end_line": 1036,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/configuration_qwen2_5_omni.py#L1011-L1036"
+  },
+  "Qwen2RMSNorm": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 78,
+    "end_line": 95,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L78-L95"
+  },
+  "Qwen2RMSNorm.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 79,
+    "end_line": 85,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L79-L85"
+  },
+  "Qwen2RMSNorm.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 87,
+    "end_line": 92,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L87-L92"
+  },
+  "Qwen2RMSNorm.extra_repr": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 94,
+    "end_line": 95,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L94-L95"
+  },
+  "Qwen2_5OmniPreTrainedModel": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 119,
+    "end_line": 147,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L119-L147"
+  },
+  "Qwen2_5OmniPreTrainedModel._init_weights": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 130,
+    "end_line": 147,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L130-L147"
+  },
+  "Qwen2_5OmniPreTrainedModelForConditionalGeneration": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 150,
+    "end_line": 546,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L150-L546"
+  },
+  "Qwen2_5OmniPreTrainedModelForConditionalGeneration._prepare_4d_causal_attention_mask_with_cache_position": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 151,
+    "end_line": 204,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L151-L204"
+  },
+  "Qwen2_5OmniPreTrainedModelForConditionalGeneration.get_llm_pos_ids_for_vision": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 206,
+    "end_line": 224,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L206-L224"
+  },
+  "Qwen2_5OmniPreTrainedModelForConditionalGeneration.get_chunked_index": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 226,
+    "end_line": 260,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L226-L260"
+  },
+  "Qwen2_5OmniPreTrainedModelForConditionalGeneration.get_chunked_index._iter": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 249,
+    "end_line": 258,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L249-L258"
+  },
+  "Qwen2_5OmniPreTrainedModelForConditionalGeneration.get_rope_index": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 262,
+    "end_line": 546,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L262-L546"
+  },
+  "Qwen2_5OmniThinkerCausalLMOutputWithPast": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 555,
+    "end_line": 590,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L555-L590"
+  },
+  "Qwen2_5OmniAudioAttention": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 593,
+    "end_line": 659,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L593-L659"
+  },
+  "Qwen2_5OmniAudioAttention.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 596,
+    "end_line": 619,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L596-L619"
+  },
+  "Qwen2_5OmniAudioAttention.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 621,
+    "end_line": 659,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L621-L659"
+  },
+  "Qwen2_5OmniAudioFlashAttention2": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 662,
+    "end_line": 698,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L662-L698"
+  },
+  "Qwen2_5OmniAudioFlashAttention2.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 669,
+    "end_line": 675,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L669-L675"
+  },
+  "Qwen2_5OmniAudioFlashAttention2.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 677,
+    "end_line": 698,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L677-L698"
+  },
+  "Qwen2_5OmniAudioSdpaAttention": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 701,
+    "end_line": 742,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L701-L742"
+  },
+  "Qwen2_5OmniAudioSdpaAttention.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 702,
+    "end_line": 742,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L702-L742"
+  },
+  "Qwen2_5OmniAudioEncoderLayer": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 752,
+    "end_line": 801,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L752-L801"
+  },
+  "Qwen2_5OmniAudioEncoderLayer.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 753,
+    "end_line": 763,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L753-L763"
+  },
+  "Qwen2_5OmniAudioEncoderLayer.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 765,
+    "end_line": 801,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L765-L801"
+  },
+  "SinusoidsPositionEmbedding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 804,
+    "end_line": 819,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L804-L819"
+  },
+  "SinusoidsPositionEmbedding.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 805,
+    "end_line": 816,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L805-L816"
+  },
+  "SinusoidsPositionEmbedding.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 818,
+    "end_line": 819,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L818-L819"
+  },
+  "Qwen2_5OmniAudioEncoder": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 837,
+    "end_line": 989,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L837-L989"
+  },
+  "Qwen2_5OmniAudioEncoder.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 851,
+    "end_line": 870,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L851-L870"
+  },
+  "Qwen2_5OmniAudioEncoder._freeze_parameters": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 872,
+    "end_line": 875,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L872-L875"
+  },
+  "Qwen2_5OmniAudioEncoder.get_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 877,
+    "end_line": 878,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L877-L878"
+  },
+  "Qwen2_5OmniAudioEncoder.set_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 880,
+    "end_line": 881,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L880-L881"
+  },
+  "Qwen2_5OmniAudioEncoder.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 884,
+    "end_line": 942,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L884-L942"
+  },
+  "Qwen2_5OmniAudioEncoder.padded_and_mask_function": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 944,
+    "end_line": 980,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L944-L980"
+  },
+  "Qwen2_5OmniAudioEncoder._get_feat_extract_output_lengths": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 983,
+    "end_line": 989,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L983-L989"
+  },
+  "rotate_half": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 992,
+    "end_line": 996,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L992-L996"
+  },
+  "apply_rotary_pos_emb_vision": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 999,
+    "end_line": 1008,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L999-L1008"
+  },
+  "Qwen2_5OmniVisionAttention": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1011,
+    "end_line": 1047,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1011-L1047"
+  },
+  "Qwen2_5OmniVisionAttention.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1012,
+    "end_line": 1019,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1012-L1019"
+  },
+  "Qwen2_5OmniVisionAttention.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1021,
+    "end_line": 1047,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1021-L1047"
+  },
+  "Qwen2_5OmniVisionFlashAttention2": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1050,
+    "end_line": 1081,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1050-L1081"
+  },
+  "Qwen2_5OmniVisionFlashAttention2.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1051,
+    "end_line": 1057,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1051-L1057"
+  },
+  "Qwen2_5OmniVisionFlashAttention2._apply_rotary_pos_emb_flashatt": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1059,
+    "end_line": 1064,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1059-L1064"
+  },
+  "Qwen2_5OmniVisionFlashAttention2.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1066,
+    "end_line": 1081,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1066-L1081"
+  },
+  "Qwen2_5OmniVisionSdpaAttention": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1084,
+    "end_line": 1113,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1084-L1113"
+  },
+  "Qwen2_5OmniVisionSdpaAttention.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1085,
+    "end_line": 1091,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1085-L1091"
+  },
+  "Qwen2_5OmniVisionSdpaAttention.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1093,
+    "end_line": 1113,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1093-L1113"
+  },
+  "Qwen2_5OmniMLP": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1116,
+    "end_line": 1127,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1116-L1127"
+  },
+  "Qwen2_5OmniMLP.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1117,
+    "end_line": 1124,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1117-L1124"
+  },
+  "Qwen2_5OmniMLP.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1126,
+    "end_line": 1127,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1126-L1127"
+  },
+  "Qwen2_5OmniVisionBlock": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1137,
+    "end_line": 1152,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1137-L1152"
+  },
+  "Qwen2_5OmniVisionBlock.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1138,
+    "end_line": 1145,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1138-L1145"
+  },
+  "Qwen2_5OmniVisionBlock.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1147,
+    "end_line": 1152,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1147-L1152"
+  },
+  "Qwen2_5_VisionPatchEmbed": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1155,
+    "end_line": 1178,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1155-L1178"
+  },
+  "Qwen2_5_VisionPatchEmbed.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1156,
+    "end_line": 1170,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1156-L1170"
+  },
+  "Qwen2_5_VisionPatchEmbed.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1172,
+    "end_line": 1178,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1172-L1178"
+  },
+  "Qwen2_5_VisionRotaryEmbedding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1181,
+    "end_line": 1190,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1181-L1190"
+  },
+  "Qwen2_5_VisionRotaryEmbedding.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1182,
+    "end_line": 1185,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1182-L1185"
+  },
+  "Qwen2_5_VisionRotaryEmbedding.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1187,
+    "end_line": 1190,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1187-L1190"
+  },
+  "Qwen2_5OmniPatchMerger": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1193,
+    "end_line": 1206,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1193-L1206"
+  },
+  "Qwen2_5OmniPatchMerger.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1194,
+    "end_line": 1202,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1194-L1202"
+  },
+  "Qwen2_5OmniPatchMerger.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1204,
+    "end_line": 1206,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1204-L1206"
+  },
+  "Qwen2_5OmniVisionEncoder": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1209,
+    "end_line": 1368,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1209-L1368"
+  },
+  "Qwen2_5OmniVisionEncoder.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1213,
+    "end_line": 1236,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1213-L1236"
+  },
+  "Qwen2_5OmniVisionEncoder.rot_pos_emb": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1238,
+    "end_line": 1265,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1238-L1265"
+  },
+  "Qwen2_5OmniVisionEncoder.get_window_index": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1267,
+    "end_line": 1306,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1267-L1306"
+  },
+  "Qwen2_5OmniVisionEncoder.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1308,
+    "end_line": 1368,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1308-L1368"
+  },
+  "Qwen2_5OmniRotaryEmbedding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1371,
+    "end_line": 1404,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1371-L1404"
+  },
+  "Qwen2_5OmniRotaryEmbedding.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1372,
+    "end_line": 1387,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1372-L1387"
+  },
+  "Qwen2_5OmniRotaryEmbedding.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1391,
+    "end_line": 1404,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1391-L1404"
+  },
+  "apply_multimodal_rotary_pos_emb": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1407,
+    "end_line": 1449,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1407-L1449"
+  },
+  "repeat_kv": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1452,
+    "end_line": 1461,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1452-L1461"
+  },
+  "Qwen2_5OmniAttention": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1464,
+    "end_line": 1561,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1464-L1561"
+  },
+  "Qwen2_5OmniAttention.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1470,
+    "end_line": 1495,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1470-L1495"
+  },
+  "Qwen2_5OmniAttention.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1497,
+    "end_line": 1561,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1497-L1561"
+  },
+  "Qwen2MLP": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1564,
+    "end_line": 1575,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1564-L1575"
+  },
+  "Qwen2MLP.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1565,
+    "end_line": 1572,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1565-L1572"
+  },
+  "Qwen2MLP.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1574,
+    "end_line": 1575,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1574-L1575"
+  },
+  "Qwen2_5OmniFlashAttention2": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1578,
+    "end_line": 1686,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1578-L1686"
+  },
+  "Qwen2_5OmniFlashAttention2.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1587,
+    "end_line": 1593,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1587-L1593"
+  },
+  "Qwen2_5OmniFlashAttention2.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1595,
+    "end_line": 1686,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1595-L1686"
+  },
+  "Qwen2_5OmniSdpaAttention": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1689,
+    "end_line": 1777,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1689-L1777"
+  },
+  "Qwen2_5OmniSdpaAttention.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1697,
+    "end_line": 1777,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1697-L1777"
+  },
+  "Qwen2_5OmniDecoderLayer": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1787,
+    "end_line": 1868,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1787-L1868"
+  },
+  "Qwen2_5OmniDecoderLayer.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1788,
+    "end_line": 1801,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1788-L1801"
+  },
+  "Qwen2_5OmniDecoderLayer.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1803,
+    "end_line": 1868,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1803-L1868"
+  },
+  "Qwen2_5OmniThinkerTextModel": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1892,
+    "end_line": 2186,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1892-L2186"
+  },
+  "Qwen2_5OmniThinkerTextModel.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1896,
+    "end_line": 1911,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1896-L1911"
+  },
+  "Qwen2_5OmniThinkerTextModel.get_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1913,
+    "end_line": 1914,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1913-L1914"
+  },
+  "Qwen2_5OmniThinkerTextModel.set_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1916,
+    "end_line": 1917,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1916-L1917"
+  },
+  "Qwen2_5OmniThinkerTextModel.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 1919,
+    "end_line": 2034,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L1919-L2034"
+  },
+  "Qwen2_5OmniThinkerTextModel._update_causal_mask": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2036,
+    "end_line": 2117,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2036-L2117"
+  },
+  "Qwen2_5OmniThinkerTextModel._prepare_4d_causal_attention_mask_with_cache_position": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2120,
+    "end_line": 2186,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2120-L2186"
+  },
+  "Qwen2_5OmniThinkerForConditionalGeneration": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2282,
+    "end_line": 2553,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2282-L2553"
+  },
+  "Qwen2_5OmniThinkerForConditionalGeneration.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2287,
+    "end_line": 2305,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2287-L2305"
+  },
+  "Qwen2_5OmniThinkerForConditionalGeneration.get_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2307,
+    "end_line": 2308,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2307-L2308"
+  },
+  "Qwen2_5OmniThinkerForConditionalGeneration.set_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2310,
+    "end_line": 2311,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2310-L2311"
+  },
+  "Qwen2_5OmniThinkerForConditionalGeneration.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2317,
+    "end_line": 2507,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2317-L2507"
+  },
+  "Qwen2_5OmniThinkerForConditionalGeneration.prepare_inputs_for_generation": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2509,
+    "end_line": 2553,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2509-L2553"
+  },
+  "Qwen2_5OmniTalkerCausalLMOutputWithPast": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2562,
+    "end_line": 2598,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2562-L2598"
+  },
+  "Qwen2_5OmniTalkerModel": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2605,
+    "end_line": 2898,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2605-L2898"
+  },
+  "Qwen2_5OmniTalkerModel.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2609,
+    "end_line": 2623,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2609-L2623"
+  },
+  "Qwen2_5OmniTalkerModel.get_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2625,
+    "end_line": 2626,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2625-L2626"
+  },
+  "Qwen2_5OmniTalkerModel.set_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2628,
+    "end_line": 2629,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2628-L2629"
+  },
+  "Qwen2_5OmniTalkerModel.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2631,
+    "end_line": 2746,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2631-L2746"
+  },
+  "Qwen2_5OmniTalkerModel._update_causal_mask": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2748,
+    "end_line": 2829,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2748-L2829"
+  },
+  "Qwen2_5OmniTalkerModel._prepare_4d_causal_attention_mask_with_cache_position": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2832,
+    "end_line": 2898,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2832-L2898"
+  },
+  "Qwen2_5OmniTalkerForConditionalGeneration": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2901,
+    "end_line": 3137,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2901-L3137"
+  },
+  "Qwen2_5OmniTalkerForConditionalGeneration.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2905,
+    "end_line": 2926,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2905-L2926"
+  },
+  "Qwen2_5OmniTalkerForConditionalGeneration.get_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2928,
+    "end_line": 2929,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2928-L2929"
+  },
+  "Qwen2_5OmniTalkerForConditionalGeneration.set_input_embeddings": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2931,
+    "end_line": 2932,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2931-L2932"
+  },
+  "Qwen2_5OmniTalkerForConditionalGeneration.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 2938,
+    "end_line": 3070,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L2938-L3070"
+  },
+  "Qwen2_5OmniTalkerForConditionalGeneration._get_initial_cache_position": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3072,
+    "end_line": 3077,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3072-L3077"
+  },
+  "Qwen2_5OmniTalkerForConditionalGeneration.prepare_inputs_for_generation": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3080,
+    "end_line": 3121,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3080-L3121"
+  },
+  "Qwen2_5OmniTalkerForConditionalGeneration._update_model_kwargs_for_generation": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3123,
+    "end_line": 3137,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3123-L3137"
+  },
+  "Qwen2_5OmniDiTRotaryEmbedding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3146,
+    "end_line": 3166,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3146-L3166"
+  },
+  "Qwen2_5OmniDiTRotaryEmbedding.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3147,
+    "end_line": 3151,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3147-L3151"
+  },
+  "Qwen2_5OmniDiTRotaryEmbedding.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3153,
+    "end_line": 3166,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3153-L3166"
+  },
+  "TimeDelayNetBlock": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3169,
+    "end_line": 3189,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3169-L3189"
+  },
+  "TimeDelayNetBlock.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3170,
+    "end_line": 3186,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3170-L3186"
+  },
+  "TimeDelayNetBlock.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3188,
+    "end_line": 3189,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3188-L3189"
+  },
+  "Res2NetBlock": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3192,
+    "end_line": 3223,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3192-L3223"
+  },
+  "Res2NetBlock.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3193,
+    "end_line": 3210,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3193-L3210"
+  },
+  "Res2NetBlock.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3212,
+    "end_line": 3223,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3212-L3223"
+  },
+  "SqueezeExcitationBlock": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3226,
+    "end_line": 3253,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3226-L3253"
+  },
+  "SqueezeExcitationBlock.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3227,
+    "end_line": 3245,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3227-L3245"
+  },
+  "SqueezeExcitationBlock.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3247,
+    "end_line": 3253,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3247-L3253"
+  },
+  "AttentiveStatisticsPooling": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3256,
+    "end_line": 3342,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3256-L3342"
+  },
+  "AttentiveStatisticsPooling.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3261,
+    "end_line": 3273,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3261-L3273"
+  },
+  "AttentiveStatisticsPooling._length_to_mask": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3275,
+    "end_line": 3304,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3275-L3304"
+  },
+  "AttentiveStatisticsPooling._compute_statistics": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3306,
+    "end_line": 3309,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3306-L3309"
+  },
+  "AttentiveStatisticsPooling.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3311,
+    "end_line": 3342,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3311-L3342"
+  },
+  "SqueezeExcitationRes2NetBlock": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3345,
+    "end_line": 3384,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3345-L3384"
+  },
+  "SqueezeExcitationRes2NetBlock.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3350,
+    "end_line": 3374,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3350-L3374"
+  },
+  "SqueezeExcitationRes2NetBlock.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3376,
+    "end_line": 3384,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3376-L3384"
+  },
+  "ECAPA_TimeDelayNet": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3387,
+    "end_line": 3468,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3387-L3468"
+  },
+  "ECAPA_TimeDelayNet.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3393,
+    "end_line": 3446,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3393-L3446"
+  },
+  "ECAPA_TimeDelayNet.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3448,
+    "end_line": 3468,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3448-L3468"
+  },
+  "DiTInputEmbedding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3471,
+    "end_line": 3501,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3471-L3501"
+  },
+  "DiTInputEmbedding.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3472,
+    "end_line": 3478,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3472-L3478"
+  },
+  "DiTInputEmbedding.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3480,
+    "end_line": 3501,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3480-L3501"
+  },
+  "DiTCodecEmbedding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3505,
+    "end_line": 3517,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3505-L3517"
+  },
+  "DiTCodecEmbedding.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3506,
+    "end_line": 3509,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3506-L3509"
+  },
+  "DiTCodecEmbedding.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3511,
+    "end_line": 3517,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3511-L3517"
+  },
+  "Qwen2_5_OmniAdaLayerNormZero": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3522,
+    "end_line": 3536,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3522-L3536"
+  },
+  "Qwen2_5_OmniAdaLayerNormZero.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3523,
+    "end_line": 3529,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3523-L3529"
+  },
+  "Qwen2_5_OmniAdaLayerNormZero.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3531,
+    "end_line": 3536,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3531-L3536"
+  },
+  "Qwen2_5_OmniAdaLayerNormZero_Final": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3541,
+    "end_line": 3555,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3541-L3555"
+  },
+  "Qwen2_5_OmniAdaLayerNormZero_Final.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3542,
+    "end_line": 3548,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3542-L3548"
+  },
+  "Qwen2_5_OmniAdaLayerNormZero_Final.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3550,
+    "end_line": 3555,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3550-L3555"
+  },
+  "DiTMLP": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3559,
+    "end_line": 3576,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3559-L3576"
+  },
+  "DiTMLP.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3560,
+    "end_line": 3571,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3560-L3571"
+  },
+  "DiTMLP.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3573,
+    "end_line": 3576,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3573-L3576"
+  },
+  "apply_rotary_pos_emb": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3580,
+    "end_line": 3612,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3580-L3612"
+  },
+  "apply_rotary_pos_emb.rotate_half_codec": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3601,
+    "end_line": 3606,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3601-L3606"
+  },
+  "DiTAttention": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3615,
+    "end_line": 3676,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3615-L3676"
+  },
+  "DiTAttention.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3616,
+    "end_line": 3631,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3616-L3631"
+  },
+  "DiTAttention.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3633,
+    "end_line": 3676,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3633-L3676"
+  },
+  "SinusPositionEmbedding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3680,
+    "end_line": 3692,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3680-L3692"
+  },
+  "SinusPositionEmbedding.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3681,
+    "end_line": 3683,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3681-L3683"
+  },
+  "SinusPositionEmbedding.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3685,
+    "end_line": 3692,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3685-L3692"
+  },
+  "DiTTimestepEmbedding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3695,
+    "end_line": 3706,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3695-L3706"
+  },
+  "DiTTimestepEmbedding.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3696,
+    "end_line": 3699,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3696-L3699"
+  },
+  "DiTTimestepEmbedding.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3701,
+    "end_line": 3706,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3701-L3706"
+  },
+  "DiTDecoderLayer": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3709,
+    "end_line": 3741,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3709-L3741"
+  },
+  "DiTDecoderLayer.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3710,
+    "end_line": 3718,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3710-L3718"
+  },
+  "DiTDecoderLayer.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3720,
+    "end_line": 3741,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3720-L3741"
+  },
+  "SnakeBeta": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3744,
+    "end_line": 3782,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3744-L3782"
+  },
+  "SnakeBeta.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3758,
+    "end_line": 3766,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3758-L3766"
+  },
+  "SnakeBeta.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3768,
+    "end_line": 3782,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3768-L3782"
+  },
+  "kaiser_sinc_filter1d": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3785,
+    "end_line": 3828,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3785-L3828"
+  },
+  "UpSample1d": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3831,
+    "end_line": 3853,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3831-L3853"
+  },
+  "UpSample1d.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3832,
+    "end_line": 3842,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3832-L3842"
+  },
+  "UpSample1d.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3844,
+    "end_line": 3853,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3844-L3853"
+  },
+  "DownSample1d": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3856,
+    "end_line": 3878,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3856-L3878"
+  },
+  "DownSample1d.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3857,
+    "end_line": 3872,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3857-L3872"
+  },
+  "DownSample1d.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3874,
+    "end_line": 3878,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3874-L3878"
+  },
+  "TorchActivation1d": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3881,
+    "end_line": 3902,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3881-L3902"
+  },
+  "TorchActivation1d.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3882,
+    "end_line": 3895,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3882-L3895"
+  },
+  "TorchActivation1d.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3897,
+    "end_line": 3902,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3897-L3902"
+  },
+  "AMPBlock": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3905,
+    "end_line": 3991,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3905-L3991"
+  },
+  "AMPBlock.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3906,
+    "end_line": 3976,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3906-L3976"
+  },
+  "AMPBlock._get_padding": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3978,
+    "end_line": 3979,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3978-L3979"
+  },
+  "AMPBlock.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3981,
+    "end_line": 3991,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3981-L3991"
+  },
+  "Qwen2_5OmniToken2WavBigVGANModel": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 3998,
+    "end_line": 4069,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L3998-L4069"
+  },
+  "Qwen2_5OmniToken2WavBigVGANModel.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4001,
+    "end_line": 4038,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4001-L4038"
+  },
+  "Qwen2_5OmniToken2WavBigVGANModel.normalize_spectrogram": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4040,
+    "end_line": 4041,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4040-L4041"
+  },
+  "Qwen2_5OmniToken2WavBigVGANModel.amplitude_to_db": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4043,
+    "end_line": 4047,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4043-L4047"
+  },
+  "Qwen2_5OmniToken2WavBigVGANModel.process_mel_spectrogram": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4049,
+    "end_line": 4052,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4049-L4052"
+  },
+  "Qwen2_5OmniToken2WavBigVGANModel.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4054,
+    "end_line": 4069,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4054-L4069"
+  },
+  "RungeKutta4ODESolver": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4072,
+    "end_line": 4125,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4072-L4125"
+  },
+  "RungeKutta4ODESolver.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4073,
+    "end_line": 4078,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4073-L4078"
+  },
+  "RungeKutta4ODESolver._rk4_step": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4080,
+    "end_line": 4085,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4080-L4085"
+  },
+  "RungeKutta4ODESolver._compute_step": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4087,
+    "end_line": 4091,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4087-L4091"
+  },
+  "RungeKutta4ODESolver._linear_interpolation": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4093,
+    "end_line": 4099,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4093-L4099"
+  },
+  "RungeKutta4ODESolver.integrate": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4101,
+    "end_line": 4125,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4101-L4125"
+  },
+  "Qwen2_5OmniToken2WavDiTModel": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4132,
+    "end_line": 4279,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4132-L4279"
+  },
+  "Qwen2_5OmniToken2WavDiTModel.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4136,
+    "end_line": 4163,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4136-L4163"
+  },
+  "Qwen2_5OmniToken2WavDiTModel._create_block_diff": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4165,
+    "end_line": 4173,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4165-L4173"
+  },
+  "Qwen2_5OmniToken2WavDiTModel.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4175,
+    "end_line": 4221,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4175-L4221"
+  },
+  "Qwen2_5OmniToken2WavDiTModel.sample": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4224,
+    "end_line": 4279,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4224-L4279"
+  },
+  "Qwen2_5OmniToken2WavDiTModel.sample.ode_function": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4242,
+    "end_line": 4264,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4242-L4264"
+  },
+  "Qwen2_5OmniToken2WavModel": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4286,
+    "end_line": 4335,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4286-L4335"
+  },
+  "Qwen2_5OmniToken2WavModel.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4291,
+    "end_line": 4310,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4291-L4310"
+  },
+  "Qwen2_5OmniToken2WavModel.forward": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4312,
+    "end_line": 4335,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4312-L4335"
+  },
+  "Qwen2_5OmniForConditionalGeneration": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4355,
+    "end_line": 4630,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4355-L4630"
+  },
+  "Qwen2_5OmniForConditionalGeneration.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4362,
+    "end_line": 4370,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4362-L4370"
+  },
+  "Qwen2_5OmniForConditionalGeneration.enable_talker": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4372,
+    "end_line": 4376,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4372-L4376"
+  },
+  "Qwen2_5OmniForConditionalGeneration.load_speakers": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4378,
+    "end_line": 4381,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4378-L4381"
+  },
+  "Qwen2_5OmniForConditionalGeneration.disable_talker": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4383,
+    "end_line": 4388,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4383-L4388"
+  },
+  "Qwen2_5OmniForConditionalGeneration.from_pretrained": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4391,
+    "end_line": 4436,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4391-L4436"
+  },
+  "Qwen2_5OmniForConditionalGeneration.generate": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py",
+    "start_line": 4440,
+    "end_line": 4630,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/modeling_qwen2_5_omni.py#L4440-L4630"
+  },
+  "Qwen2_5_OmniVideosKwargs": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 32,
+    "end_line": 41,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L32-L41"
+  },
+  "Qwen2_5_OmniImagesKwargs": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 44,
+    "end_line": 49,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L44-L49"
+  },
+  "Qwen2_5OmniProcessorKwargs": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 52,
+    "end_line": 70,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L52-L70"
+  },
+  "Qwen2_5OmniProcessor": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 73,
+    "end_line": 355,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L73-L355"
+  },
+  "Qwen2_5OmniProcessor.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 96,
+    "end_line": 104,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L96-L104"
+  },
+  "Qwen2_5OmniProcessor.__call__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 106,
+    "end_line": 208,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L106-L208"
+  },
+  "Qwen2_5OmniProcessor.replace_multimodal_special_tokens": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 210,
+    "end_line": 278,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L210-L278"
+  },
+  "Qwen2_5OmniProcessor.get_chunked_index": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 280,
+    "end_line": 311,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L280-L311"
+  },
+  "Qwen2_5OmniProcessor.get_chunked_index._iter": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 300,
+    "end_line": 309,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L300-L309"
+  },
+  "Qwen2_5OmniProcessor.batch_decode": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 313,
+    "end_line": 318,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L313-L318"
+  },
+  "Qwen2_5OmniProcessor.decode": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 320,
+    "end_line": 325,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L320-L325"
+  },
+  "Qwen2_5OmniProcessor.apply_chat_template": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 327,
+    "end_line": 340,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L327-L340"
+  },
+  "Qwen2_5OmniProcessor.model_input_names": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py",
+    "start_line": 343,
+    "end_line": 355,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py#L343-L355"
+  },
+  "smart_resize": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+    "start_line": 56,
+    "end_line": 84,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py#L56-L84"
+  },
+  "Qwen2VLImageProcessor": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+    "start_line": 87,
+    "end_line": 481,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py#L87-L481"
+  },
+  "Qwen2VLImageProcessor.__init__": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+    "start_line": 124,
+    "end_line": 167,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py#L124-L167"
+  },
+  "Qwen2VLImageProcessor._preprocess": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+    "start_line": 169,
+    "end_line": 299,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py#L169-L299"
+  },
+  "Qwen2VLImageProcessor.preprocess": {
+    "local_path": "sources/transformers/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py",
+    "start_line": 301,
+    "end_line": 481,
+    "upstream_url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/models/qwen2_vl/image_processing_qwen2_vl.py#L301-L481"
+  }
+}

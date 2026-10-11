@@ -1,0 +1,23 @@
+[
+  {
+    "path": "sources/transformers/src/transformers/loss/loss_utils.py",
+    "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/loss/loss_utils.py",
+    "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+    "blob_sha": "98ecbe76520c4acb4e59f20a3776674ecea5ad01",
+    "transport": "GitHub connector"
+  },
+  {
+    "path": "sources/transformers/src/transformers/modeling_rope_utils.py",
+    "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/modeling_rope_utils.py",
+    "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+    "blob_sha": "ccb961edea9d6e297b14531188320d72bbf4ef66",
+    "transport": "GitHub connector"
+  },
+  {
+    "path": "sources/transformers/src/transformers/audio_utils.py",
+    "url": "https://github.com/huggingface/transformers/blob/cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d/src/transformers/audio_utils.py",
+    "revision": "cb39f7dd5ba874ee1859b47283b08cd3a6ab5a0d",
+    "blob_sha": "8420a84e089e03be9a80fb63c237e34203ea28a0",
+    "transport": "GitHub connector"
+  }
+]

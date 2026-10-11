@@ -1,0 +1,10 @@
+{
+  "audio_tokens_2s": 50,
+  "image_tokens_224": 64,
+  "tmrope_text_matches_rope": true,
+  "rope_norm_error": 0.0,
+  "cached_attention_error": 4.163336342344337e-16,
+  "flow_endpoint_error": 1.5543122344752192e-15,
+  "baseline_dpo_loss": 0.6931471805599453,
+  "preferred_dpo_loss": 0.4740769841801067
+}

@@ -1,0 +1,66 @@
+4.3
+Talker
+We introduced a three-stage training process for Talker, allowing Qwen2.5-Omni to generate text and
+speech responses simultaneously. In the first stage, we train Talker to learn context continuation. The
+second stage utilized DPO (Rafailov et al., 2023) to enhance the stability of speech generation. In the third
+stage, we applied multi-speaker instruction fine-tuning to improve the naturalness and controllability of
+the speech responses.
+During the In-Context Learning (ICL) training phase, in addition to utilizing text supervision similar
+to that of Thinker, we perform a speech continuation task through next-token prediction, leveraging
+an extensive dataset of dialogues that incorporate multimodal contexts and spoken responses. Talker
+learns to establish a monotonic mapping from semantic representation to speech, while also acquiring
+the ability to express speech with diverse attributes that are contextually appropriate, such as prosody,
+emotion, and accent. Additionally, we implement timbre disentanglement techniques to prevent the
+model from associating specific voices with infrequent textual patterns.
+LDPO(Pθ; Pref) = −E(x,yw,yl)∼D
+
+log σ
+
+β log Pθ(yw | x)
+Pref(yw | x) −β log Pθ(yl | x)
+Pref(yl | x)
+
+.
+(1)
+To broaden the coverage of speakers and scenarios, the pretraining data inevitably contains label noise and
+pronunciation errors, leading to model hallucinations. To mitigate this issue, we introduce a reinforcement
+learning phase to improve the stability of speech generation. Specifically, for each request and response
+text paired with the reference speech, we build a dataset D with the triplet data (x, yw, yl), where x is
+the input sequence with input text, and yw and yl are the good and bad generated speech sequences
+respectively. We rank these samples based on their reward scores associated with word error rate (WER)
+and the punctuation pause error rate.
+Lastly, we performed speaker fine-tuning on the aforementioned base model, enabling Talker to adopt
+specific voices and improve its naturalness.
+5
+Evaluation
+We conduct comprehensive evaluation of Qwen2.5-Omni. The model is divided into two main categories:
+understanding (X→Text) and speech generation (X→Speech).
+5.1
+Evaluation of X→Text
+In this section, we evaluate Qwen2.5-Omni’s ability to comprehend various multimodal inputs (text,
+audio, image, and video) and generate textual responses.
+Text→Text
+Our evaluation of Qwen2.5-Omni on text →text primarily focuses on general evaluation,
+mathematics & science ability and coding ability. Specifically, we utilize MMLU-Pro (Wang et al.,
+2024f), MMLU-redux (Gema et al., 2024) and Livebench0803 (White et al., 2024) for general evaluation,
+GPQA (Rein et al., 2023), GSM8K (Cobbe et al., 2021) and MATH (Hendrycks et al., 2021b) for mathematics
+& science, HumanEval (Chen et al., 2021), MBPP (Austin et al., 2021), MultiPL-E (Cassano et al., 2023)
+and LiveCodeBench 2305-2409 (Jain et al., 2024) for coding.
+Audio→Text
+The evaluation of Qwen2.5-Omni for audio →text includes audio understanding, audio
+reasoning, and voice-chatting. Specifically, we perform a comprehensive evaluation on Automatic
+Speech Recognition (ASR), Speech-to-Text Translation (S2TT), Speech Entity Recognition (SER), Vocal
+Sound classification (VSC) and Music, which assesses the performance of Qwen2.5-Omni on a broad
+range of audio understanding tasks. We utilize MMAU (Sakshi et al., 2024) for audio reasoning tasks,
+VoiceBench (Chen et al., 2024b) and a self-curated speech-instruction benchmark for voice-chatting tasks.
+Image→Text
+The evaluation of Qwen2.5-Omni for image →text primarily emphasizes the performance
+in college-level problems, math, general visual question answering and OCR-related tasks. Specifically, we
+utilize MMMU (Yue et al., 2023) and MMMU-Pro (Yue et al., 2024) for college-level problems evaluation,
+MathVista (Lu et al., 2024b) and MathVision (Wang et al., 2024b) for math. For general visual question
+answering, we evaluate the performance on benchmark datasets such as MMBench-V1.1 (Liu et al.,
+2023c), MMVet (Yu et al., 2024), MMStar (Chen et al., 2024a), MME (Fu et al., 2023), MuirBench (Wang
+et al., 2024a), CRPE (Wang et al., 2024d), RealWorldQA (X.AI., 2024), MMERealWorld (Zhang et al., 2024),
+and MM-MT-Bench (Agrawal et al., 2024). Additionally, we evaluate Qwen2.5-Omni on various OCR
+benchmarks, such as AI2D (Kembhavi et al., 2016), TextVQA (Singh et al., 2019), DocVQA (Mathew
+7

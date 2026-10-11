@@ -1,0 +1,39 @@
+{
+  "torch_version": "2.3.1+cu121",
+  "cpu_only": true,
+  "weights_loaded": false,
+  "text_positions": true,
+  "left_padding": true,
+  "image_positions": true,
+  "audio_positions": true,
+  "text_tmrope_matches_rope": true,
+  "rotation_norm_preserved": true,
+  "audio_lengths": true,
+  "processor_two_second_chunks": [
+    [
+      0,
+      50
+    ],
+    [
+      50,
+      100
+    ]
+  ],
+  "model_helper_chunks": [
+    [
+      0,
+      100
+    ]
+  ],
+  "audiovisual_expected_temporal_positions": [
+    2,
+    52
+  ],
+  "audiovisual_actual_temporal_positions": [
+    2,
+    48
+  ],
+  "known_snapshot_interleaving_discrepancy_confirmed": true,
+  "short_visual_grid_index_error_confirmed": true,
+  "note": "The model helper loops over len(3,N)=3 rather than N, unlike the 1-D processor helper. Archived upstream code is not patched."
+}

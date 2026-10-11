@@ -1,0 +1,127 @@
+Table 3: Audio →text performance of State-of-the-art and Qwen2.5-Omni
+Datasets
+Model
+Performance
+SER
+Meld
+WavLM-large (Chen et al., 2022)
+0.542
+MiniCPM-o (Yao et al., 2024)
+0.524
+Qwen-Audio (Chu et al., 2023a)
+0.557
+Qwen2-Audio (Chu et al., 2024a)
+0.553
+Qwen2.5-Omni-7B
+0.570
+VSC
+VocalSound
+CLAP (Elizalde et al., 2022)
+0.495
+Pengi (Deshmukh et al., 2023)
+0.604
+Qwen-Audio (Chu et al., 2023a)
+0.929
+Qwen2-Audio (Chu et al., 2024a)
+0.939
+Qwen2.5-Omni-7B
+0.939
+Music
+GiantSteps
+Tempo
+LLark-7B (Gardner et al., 2023)
+0.86
+Qwen2.5-Omni-7B
+0.88
+MusicCaps
+LP-MusicCaps (Doh et al., 2023)
+0.291 | 0.149 | 0.089 | 0.061 | 0.129 | 0.130
+Qwen2.5-Omni-7B
+0.328 | 0.162 | 0.090 | 0.055 | 0.127 | 0.225
+Audio Reasoning
+MMAU
+Sound | Music |
+Speech | Avg
+Gemini-Pro-V1.5 (Team et al., 2024)
+56.75 | 49.40 | 58.55 | 54.90
+Qwen2-Audio (Chu et al., 2024a)
+54.95 | 50.98 | 42.04 | 49.20
+Qwen2.5-Omni-7B
+67.87 | 69.16 | 59.76 | 65.60
+Voice Chatting
+VoiceBench
+AlpacaEval | CommonEval |
+SD-QA | MMSU
+Ultravox-v0.4.1-LLaMA-3.1-8B
+4.55 | 3.90 | 53.35 | 47.17
+MERaLiON (He et al., 2024)
+4.50 | 3.77 | 55.06 | 34.95
+Megrez-3B-Omni (Infinigence)
+3.50 | 2.95 | 25.95 | 27.03
+Lyra-Base (Zhong et al., 2024)
+3.85 | 3.50 | 38.25 | 49.74
+MiniCPM-o (Yao et al., 2024)
+4.42 | 4.15 | 50.72 | 54.78
+Baichuan-Omni-1.5 (Li et al., 2025)
+4.50 | 4.05 | 43.40 | 57.25
+Qwen2-Audio (Chu et al., 2024a)
+3.74 | 3.43 | 35.71 | 35.72
+Qwen2.5-Omni-7B
+4.49 | 3.93 | 55.71 | 61.32
+VoiceBench
+OpenBookQA | IFEval |
+AdvBench | Avg
+Ultravox-v0.4.1-LLaMA-3.1-8B
+65.27 | 66.88 | 98.46 | 71.45
+MERaLiON (He et al., 2024)
+27.23 | 62.93 | 94.81 | 62.91
+Megrez-3B-Omni (Infinigence)
+28.35 | 25.71 | 87.69 | 46.25
+Lyra-Base (Zhong et al., 2024)
+72.75 | 36.28 | 59.62 | 57.66
+MiniCPM-o (Yao et al., 2024)
+78.02 | 49.25 | 97.69 | 71.69
+Baichuan-Omni-1.5 (Li et al., 2025)
+74.51 | 54.54 | 97.31 | 71.14
+Qwen2-Audio (Chu et al., 2024a)
+49.45 | 26.33 | 96.73 | 55.35
+Qwen2.5-Omni-7B
+81.10 | 52.87 | 99.42 | 74.12
+Table 4: Performance of Qwen2.5-Omni and other models for Chatting, ∗means that approximately 90%
+of text instructions suitable for speech are used.
+Datasets
+Qwen2-7B (text) Qwen2-Audio Qwen2.5-Omni-7B
+MMLU∗
+69.3
+33.2
+65.6
+CEval∗
+78.4
+38.6
+61.1
+IFEval∗
+53.3
+15.6
+41.7
+GSM8K∗
+82.3
+18.4
+85.4
+Math23K∗
+92.3
+23.0
+87.1
+Math401∗
+75.5
+20.4
+62.2
+5.1.3
+Performance of Image →Text
+To comprehensively evaluate the capabilities on Image →Text, we compare Qwen2.5-Omni with the
+recent state-of-the-art large vision language model Qwen2.5-VL-7B and other best-performing omni
+models. As illustrated in Table 5, Qwen2.5-Omni demonstrates comparable performance to Qwen2.5-
+VL-7B, and attains better results on MMMU, MathVision, MMBench-V1.1-EN, TextVQA, DocVQA and
+ChartQA than any other open-sourced omni models. Additionally, Qwen2.5-Omni also surpasses GPT-
+4o-mini on most benchmarks. These results reveal the excellent capability of our model on image
+understanding.
+10

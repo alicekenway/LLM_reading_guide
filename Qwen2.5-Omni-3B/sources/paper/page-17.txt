@@ -1,0 +1,52 @@
+Yingxu He, Zhuohan Liu, Shuo Sun, Bin Wang, Wenyu Zhang, Xunlong Zou, Nancy F Chen, and Ai Ti
+Aw. Meralion-audiollm: Technical report. arXiv preprint arXiv:2412.09818, 2024.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob
+Steinhardt. Measuring massive multitask language understanding. In ICLR. OpenReview.net, 2021a.
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song,
+and Jacob Steinhardt. Measuring mathematical problem solving with the MATH dataset. In NeurIPS
+Datasets and Benchmarks, 2021b.
+Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma, Tengchao Lv, Lei
+Cui, Owais Khan Mohammed, Qiang Liu, et al. Language is not all you need: Aligning perception
+with language models. arXiv:2302.14045, 2023.
+Infinigence. Infini-megrez-omni. URL https://github.com/infinigence/Infini-Megrez-Omni.
+Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, Sida Wang, Armando Solar-
+Lezama, Koushik Sen, and Ion Stoica. LiveCodeBench: Holistic and contamination free evaluation of
+large language models for code. CoRR, abs/2403.07974, 2024.
+Sahar Kazemzadeh, Vicente Ordonez, Mark Matten, and Tamara Berg. ReferItGame: Referring to objects
+in photographs of natural scenes. In Alessandro Moschitti, Bo Pang, and Walter Daelemans (eds.),
+Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 787–
+798, Doha, Qatar, October 2014. Association for Computational Linguistics. doi: 10.3115/v1/D14-1086.
+URL https://aclanthology.org/D14-1086/.
+Aniruddha Kembhavi, Mike Salvato, Eric Kolve, Minjoon Seo, Hannaneh Hajishirzi, and Ali Farhadi. A
+diagram is worth a dozen images. In ECCV, 2016.
+Sang-gil Lee, Wei Ping, Boris Ginsburg, Bryan Catanzaro, and Sungroh Yoon. Bigvgan: A universal
+neural vocoder with large-scale training. In ICLR 2023.
+Junnan Li, Dongxu Li, Silvio Savarese, and Steven Hoi. Blip-2: Bootstrapping language-image pre-training
+with frozen image encoders and large language models. arXiv:2301.12597, 2023.
+Kunchang Li, Yali Wang, Yinan He, Yizhuo Li, Yi Wang, Yi Liu, Zun Wang, Jilan Xu, Guo Chen, Ping Luo,
+et al. Mvbench: A comprehensive multi-modal video understanding benchmark. In CVPR, 2024a.
+Liunian Harold Li, Pengchuan Zhang, Haotian Zhang, Jianwei Yang, Chunyuan Li, Yiwu Zhong, Lijuan
+Wang, Lu Yuan, Lei Zhang, Jenq-Neng Hwang, Kai-Wei Chang, and Jianfeng Gao. Grounded language-
+image pre-training, 2022. URL https://arxiv.org/abs/2112.03857.
+Yadong Li, Jun Liu, Tao Zhang, Song Chen, Tianpeng Li, Zehuan Li, Lijun Liu, Lingfeng Ming, Guosheng
+Dong, Da Pan, et al. Baichuan-omni-1.5 technical report. arXiv preprint arXiv:2501.15368, 2025.
+Yizhi Li, Ge Zhang, Yinghao Ma, Ruibin Yuan, Kang Zhu, Hangyu Guo, Yiming Liang, Jiaheng Liu,
+Zekun Wang, Jian Yang, et al. Omnibench: Towards the future of universal omni-language models.
+arXiv preprint arXiv:2409.15272, 2024b.
+Yaron Lipman, Ricky T. Q. Chen, Heli Ben-Hamu, Maximilian Nickel, and Matthew Le. Flow matching
+for generative modeling. In ICLR 2023.
+Haotian Liu, Chunyuan Li, Yuheng Li, and Yong Jae Lee. Improved baselines with visual instruction
+tuning. arXiv:2310.03744, 2023a.
+Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee. Visual instruction tuning. arXiv:2304.08485,
+2023b.
+Shilong Liu, Zhaoyang Zeng, Tianhe Ren, Feng Li, Hao Zhang, Jie Yang, Qing Jiang, Chunyuan Li,
+Jianwei Yang, Hang Su, Jun Zhu, and Lei Zhang. Grounding dino: Marrying dino with grounded
+pre-training for open-set object detection, 2024. URL https://arxiv.org/abs/2303.05499.
+Yuan Liu, Haodong Duan, Bo Li Yuanhan Zhang, Songyang Zhang, Wangbo Zhao, Yike Yuan, Jiaqi
+Wang, Conghui He, Ziwei Liu, Kai Chen, and Dahua Lin. Mmbench: Is your multi-modal model an
+all-around player? arXiv:2307.06281, 2023c.
+Jiasen Lu, Christopher Clark, Sangho Lee, Zichen Zhang, Savya Khosla, Ryan Marten, Derek Hoiem, and
+Aniruddha Kembhavi. Unified-io 2: Scaling autoregressive multimodal models with vision language
+audio and action. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,
+pp. 26439–26455, 2024a.
+17

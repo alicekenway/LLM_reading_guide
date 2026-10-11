@@ -1,0 +1,17 @@
+{
+  "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "packages": {
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.6",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "nbconvert": "7.16.6",
+    "ipykernel": "6.30.1",
+    "jupyter-client": "8.10.0",
+    "jupyter-core": "5.9.1",
+    "IPython": "9.17.1",
+    "PyMuPDF": "1.26.4",
+    "beautifulsoup4": "4.13.5",
+    "Pillow": "12.3.0"
+  }
+}

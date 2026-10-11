@@ -1,0 +1,169 @@
+Table 5: Image →Text performance of 7B+ models and Qwen2.5-Omni
+Datasets
+GPT-4o-mini Qwen2.5-VL-7B
+Other Best
+Qwen2.5-Omni-7B
+College-level Problems
+MMMUval
+60.0
+58.6
+53.9 (Li et al., 2025)
+59.2
+MMMU-Prooverall
+37.6
+38.3
+-
+36.6
+Mathematical
+MathVistatestmini
+52.5
+68.2
+71.9 (Yao et al., 2024)
+67.9
+MathVisionfull
+-
+25.1
+23.1 (Yao et al., 2024)
+25.0
+General Visual Question Answering
+MMBench-V1.1-ENtest
+76.0
+82.6
+80.5 (Yao et al., 2024)
+81.8
+MMVetturbo
+66.9
+67.1
+67.5 (Yao et al., 2024)
+66.8
+MMStar
+54.8
+63.9
+64.0 (Yao et al., 2024)
+64.0
+MMEsum
+2003
+2347
+2372 (Yao et al., 2024)
+2340
+MuirBench
+-
+59.6
+-
+59.2
+CRPErelation
+-
+76.4
+-
+76.5
+RealWorldQAavg
+-
+68.5
+71.9 (Infinigence)
+70.3
+MME-RealWorlden
+-
+57.4
+-
+61.6
+MM-MT-Bench
+-
+6.3
+-
+6.0
+OCR-related Tasks
+AI2D
+-
+83.9
+85.8 (Yao et al., 2024)
+83.2
+TextVQAval
+-
+84.9
+83.2 (Li et al., 2025)
+84.4
+DocVQAtest
+-
+95.7
+93.5 (Yao et al., 2024)
+95.2
+ChartQAtest Avg
+-
+87.3
+84.9 (Li et al., 2025)
+85.3
+OCRBench_V2en
+-
+56.3
+-
+57.8
+Table 6: Grounding performance of Qwen2.5-Omni and other models
+Datasets
+Gemini 1.5 Pro Grounding DINO Qwen2.5-VL-7B Qwen2.5-Omni-7B
+Refcocoval
+73.2
+90.6
+90.0
+90.5
+RefcocotextA
+72.9
+93.2
+92.5
+93.5
+RefcocotextB
+74.6
+88.2
+85.4
+86.6
+Refcoco+val
+62.5
+88.2
+84.2
+85.4
+Refcoco+textA
+63.9
+89.0
+89.1
+91.0
+Refcoco+textB
+65.0
+75.9
+76.9
+79.3
+Refcocogval
+75.2
+86.1
+87.2
+87.4
+Refcocogtest
+76.2
+87.0
+87.2
+87.9
+ODinW
+36.7
+55.0
+37.3
+42.2
+PointGrounding
+-
+-
+67.3
+66.5
+For visual grounding, we compare Qwen2.5-Omni with Qwen2.5-VL-7B and other leading LVLMs
+including Gemini and Grounding-DINO (Liu et al., 2024). As illustrated in Table 6, our model outperforms
+other models across most benchmarks from box-grounding to point-grounding and achieves a good
+performance of 42.2mAP on open-vocabulary object detection, which reveals the strong visual grounding
+capability of our model.
+5.1.4
+Performance of Video →Text
+Similar to Image→Text, we compare Qwen2.5-Omni with Qwen2.5-VL-7B and other omni models. As
+shown in Table 7, Qwen2.5-Omni outperforms all other state-of-the-art open-sourced omni models and
+GPT-4o-Mini, and attains better or competitive results compared to Qwen2.5-VL-7B, which demonstrates
+the superior performance on video understanding.
+5.1.5
+Performance of Multimodality→Text
+As shown in Table 8, Qwen2.5-Omni achieves state-of-the-art performance on OmniBench, surpassing
+other Omni models by a large margin, which demonstrates the superiority of our model in multimodality
+understanding.
+11
